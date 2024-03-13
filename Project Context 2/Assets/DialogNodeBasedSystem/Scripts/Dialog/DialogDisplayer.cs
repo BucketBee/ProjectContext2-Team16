@@ -26,7 +26,6 @@ namespace cherrydev
             dialogBehaviour.OnSentenceNodeActiveWithParameter += dialogSentensePanel.Setup;
 
             dialogBehaviour.OnAnswerNodeActive += EnableDialogAnswerPanel;
-            dialogBehaviour.OnAnswerNodeActive += DisableDialogSentencePanel;
 
             dialogBehaviour.OnAnswerNodeActiveWithParameter += dialogAnswerPanel.EnableCertainAmountOfButtons;
             dialogBehaviour.OnMaxAmountOfAnswerButtonsCalculated += dialogAnswerPanel.SetUpButtons;

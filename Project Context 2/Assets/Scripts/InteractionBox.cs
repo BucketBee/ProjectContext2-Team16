@@ -2,8 +2,8 @@ using cherrydev;
 using Cinemachine;
 using StarterAssets;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 public class InteractionBox : MonoBehaviour
 {
     [SerializeField] private DialogBehaviour dialogBehaviour;
@@ -12,34 +12,79 @@ public class InteractionBox : MonoBehaviour
     StarterAssetsInputs player;
     FirstPersonController control;
     CinemachineVirtualCamera cam;
+    GameObject bg;
+
+    private Vector3 initialCameraPosition;
+    private Quaternion initialCameraRotation;
     void Start()
     {
         player = FindObjectOfType<StarterAssetsInputs>();
         control = FindObjectOfType<FirstPersonController>();
         cam = FindObjectOfType<CinemachineVirtualCamera>();
+        bg = GameObject.Find("Background");
+        bg.SetActive(false);
     }
     private void OnTriggerEnter(Collider other)
     {
         if (dialogBehaviour != null)
         {
+            initialCameraPosition = cam.transform.position;
+            initialCameraRotation = cam.transform.rotation;
             dialogBehaviour.StartDialog(dialogGraph);
             control.enabled = false;
             player.cursorInputForLook = false;
             player.cursorLocked = false;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+            StartCoroutine(EnableBackground());
             cam.LookAt = transform;
         }
     }
     public void EndConvo()
     {
         control.enabled = true;
+        StartCoroutine(DisableBackground());
         player.cursorInputForLook = true;
         player.cursorLocked = true;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         cam.LookAt = null;
+        cam.transform.position = initialCameraPosition;
+        cam.transform.rotation = initialCameraRotation;
         GameObject myEventSystem = GameObject.Find("EventSystem");
         myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(null);
+    }
+
+    IEnumerator EnableBackground()
+    {
+        bg.SetActive(true);
+        float maxTime = 1f;
+        Image image = bg.GetComponent<Image>();
+        for (float currentTime = 0f; currentTime < maxTime; currentTime += Time.deltaTime)
+        {
+            float normalizedTime = currentTime / maxTime;
+            float alpha = Mathf.Lerp(0f, 1f, normalizedTime);
+
+            image.color = new Color(1f, 1f, 1f, alpha);
+
+            yield return null;
+        }
+        image.color = new Color(1f, 1f, 1f, 1f);
+    }
+    IEnumerator DisableBackground()
+    {
+        bg.SetActive(true);
+        float maxTime = 1f;
+        Image image = bg.GetComponent<Image>();
+        for (float currentTime = 0f; currentTime < maxTime; currentTime += Time.deltaTime)
+        {
+            float normalizedTime = currentTime / maxTime;
+            float alpha = Mathf.Lerp(1f, 0f, normalizedTime);
+
+            image.color = new Color(1f, 1f, 1f, alpha);
+
+            yield return null;
+        }
+        image.color = new Color(1f, 1f, 1f, 0f);
     }
 }
