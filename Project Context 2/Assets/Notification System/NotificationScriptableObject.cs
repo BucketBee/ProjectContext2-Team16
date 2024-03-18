@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName ="Notification",menuName = "ScriptableObjects/Notification")]
+[CreateAssetMenu(fileName ="Notification",menuName = "CustomScriptableObjects/Notification")]
 public class NotificationScriptableObject : ScriptableObject
 {
     [Header("Message Customisation")]
