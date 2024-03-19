@@ -52,11 +52,15 @@ public class NotificationScriptableObjectManager : MonoBehaviour
         if (_noteScriptableObject._disableAfterTimer)
         {
             yield return new WaitForSeconds(_noteScriptableObject._disableTimer);
-            StartCoroutine(RemoveNotification());
+            RemoveNotification();
         }
 
     }
-    public IEnumerator RemoveNotification()
+    public void RemoveNotification()
+    {
+        StartCoroutine(RemoveNotificationCoroutine());
+    }
+    public IEnumerator RemoveNotificationCoroutine()
     {
         _notifacitonAnim.Play("NotificationAnimationFadeOut");
         //unity bs want anders pak hij nog de vorige animation (stringmatching issue)
