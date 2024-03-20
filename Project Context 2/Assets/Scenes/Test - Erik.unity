@@ -1270,6 +1270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1024676063}
   - component: {fileID: 1024676062}
+  - component: {fileID: 1024676064}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -1354,6 +1355,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &1024676064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024676061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1001 &1100128923
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1451,23 +1472,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf3193647401f134e88ecc2c865d2ad4, type: 3}
---- !u!1 &1120183004 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5440058445224487772, guid: 3b9dfcc330a6d4d45bf1a9e01bc68781, type: 3}
-  m_PrefabInstance: {fileID: 1449573179}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1120183006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1120183004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edc958a3ebe6dad408458d6322dc9b85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1355831061 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1161094326190892681, guid: 72e8b8bd2e9a2fc418d4f1a1b1cd0c89, type: 3}

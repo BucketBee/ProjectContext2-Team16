@@ -23,6 +23,7 @@ public class NpcManager : MonoBehaviour
 
     private void Awake()
     {
+        SetInspirationMeter(EventManager.newInspiration);
         SpawnNpcs();
     }
     private void SpawnNpcs()
@@ -80,7 +81,8 @@ public class NpcManager : MonoBehaviour
 
     public void SetInspirationMeter(float amount)
     {
-        _inspirationMeter = amount;
+        _inspirationMeter += amount;
+        EventManager.newInspiration = 0f;
     }
 
 }

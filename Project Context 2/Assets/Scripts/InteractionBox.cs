@@ -12,11 +12,24 @@ public class InteractionBox : MonoBehaviour
     StarterAssetsInputs player;
     FirstPersonController control;
     CinemachineVirtualCamera cam;
+
+    NpcManager npcManager;
+
+    public float inspirationAmount = 0f;
+
+    private bool successfulInteraction = false;
+    private bool interactionCompleted = false;
+
     void Start()
     {
         player = FindObjectOfType<StarterAssetsInputs>();
         control = FindObjectOfType<FirstPersonController>();
         cam = FindObjectOfType<CinemachineVirtualCamera>();
+        dialogBehaviour.BindExternalFunction("success", Success);
+    }
+    private void Success()
+    {
+        successfulInteraction = true;
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -41,5 +54,12 @@ public class InteractionBox : MonoBehaviour
         cam.LookAt = null;
         GameObject myEventSystem = GameObject.Find("EventSystem");
         myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(null);
+
+        if (!interactionCompleted && successfulInteraction)
+        {
+            EventManager.newInspiration += inspirationAmount;
+            Debug.Log("Sent " + inspirationAmount + " inspiration to EventManager.");
+            interactionCompleted = true;
+        }
     }
 }

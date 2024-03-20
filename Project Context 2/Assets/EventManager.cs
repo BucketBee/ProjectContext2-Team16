@@ -7,6 +7,8 @@ public class EventManager : MonoBehaviour
 {
     static public event Action OnSceneSwitchClose;
     static public event Action OnSceneSwitchOpen;
+
+    static public float newInspiration;
     
    
 }
