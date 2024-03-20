@@ -37,7 +37,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f900531c02237f45914b46241067f99, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.831
+      value: 10.81
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f900531c02237f45914b46241067f99, type: 3}
       propertyPath: m_LocalPosition.y
@@ -45,7 +45,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f900531c02237f45914b46241067f99, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.615
+      value: -0.37
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f900531c02237f45914b46241067f99, type: 3}
       propertyPath: m_LocalRotation.w
@@ -315,21 +315,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 8232307151619363899}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 0.55
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!136 &182060135613523928
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8232307151619363899}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5
   m_Height: 0.55
   m_Direction: 1
@@ -347,7 +333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 698088689}
-  range: 34.1
+  range: 100
   centrePoint: {fileID: 0}
 --- !u!195 &698088689
 NavMeshAgent:
@@ -359,10 +345,10 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 0.8
   m_Acceleration: 8
   avoidancePriority: 50
-  m_AngularSpeed: 180
+  m_AngularSpeed: 220
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -370,8 +356,8 @@ NavMeshAgent:
   m_Height: 1.35
   m_BaseOffset: 0.55
   m_WalkableMask: 1
-  m_ObstacleAvoidanceType: 4
---- !u!114 &1788792638
+  m_ObstacleAvoidanceType: 0
+--- !u!114 &1788792643
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -380,9 +366,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8232307151619363899}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70ff4d2c2e494594fbc8cf2c578afa6e, type: 3}
+  m_Script: {fileID: 11500000, guid: 885aef3641172b9488caccdd228aa67e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 698088689}
-  range: 23.69
-  centrePoint: {fileID: 0}
+  _materials:
+  - {fileID: 2100000, guid: e326fb8c03773594e9b0f5b7099f9774, type: 2}
+  - {fileID: 2100000, guid: bc2d5a41da15efd4782d129400734a6c, type: 2}

@@ -23,6 +23,7 @@ public class NPCAI : MonoBehaviour
 
     void Update()
     {
+        
         if (agent.remainingDistance <= agent.stoppingDistance) //done with path
         {
             Vector3 point;
