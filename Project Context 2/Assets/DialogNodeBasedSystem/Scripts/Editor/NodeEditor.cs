@@ -75,8 +75,8 @@ namespace cherrydev
         /// <summary>
         /// Open Node Editor Window when Node Graph asset is double clicked in the inspector
         /// </summary>
-        /// <param _name="instanceID"></param>
-        /// <param _name="line"></param>
+        /// <param name="instanceID"></param>
+        /// <param name="line"></param>
         /// <returns></returns>
         [OnOpenAsset(0)]
         public static bool OnDoubleClickAsset(int instanceID, int line)
@@ -220,8 +220,8 @@ namespace cherrydev
         /// <summary>
         /// Draw connection line from parent to child node
         /// </summary>
-        /// <param _name="parentNode"></param>
-        /// <param _name="childNode"></param>
+        /// <param name="parentNode"></param>
+        /// <param name="childNode"></param>
         private void DrawConnectionLine(Node parentNode, Node childNode)
         {
             Vector2 startPosition = parentNode.rect.center;
@@ -249,9 +249,9 @@ namespace cherrydev
         /// <summary>
         /// Draw grid background lines for node editor window
         /// </summary>
-        /// <param _name="gridSize"></param>
-        /// <param _name="gridOpacity"></param>
-        /// <param _name="color"></param>
+        /// <param name="gridSize"></param>
+        /// <param name="gridOpacity"></param>
+        /// <param name="color"></param>
         private void DrawGridBackground(float gridSize, float gridOpacity, Color color)
         {
             int verticalLineCount = Mathf.CeilToInt((position.width + gridSize) / gridSize);
@@ -304,7 +304,7 @@ namespace cherrydev
         /// <summary>
         /// Process events
         /// </summary>
-        /// <param _name="currentEvent"></param>
+        /// <param name="currentEvent"></param>
         private void ProcessEvents(Event currentEvent)
         {
             graphDrag = Vector2.zero;
@@ -327,7 +327,7 @@ namespace cherrydev
         /// <summary>
         /// Process all events
         /// </summary>
-        /// <param _name="currentEvent"></param>
+        /// <param name="currentEvent"></param>
         private void ProcessNodeEditorEvents(Event currentEvent)
         {
             switch (currentEvent.type)
@@ -356,7 +356,7 @@ namespace cherrydev
         /// <summary>
         /// Process mouse down event
         /// </summary>
-        /// <param _name="currentEvent"></param>
+        /// <param name="currentEvent"></param>
         private void ProcessMouseDownEvent(Event currentEvent)
         {
             if (currentEvent.button == 1)
@@ -376,7 +376,7 @@ namespace cherrydev
         /// <summary>
         /// Process right mouse click event
         /// </summary>
-        /// <param _name="currentEvent"></param>
+        /// <param name="currentEvent"></param>
         private void ProcessRightMouseDownEvent(Event currentEvent)
         {
             if (GetHighlightedNode(currentEvent.mousePosition) == null)
@@ -388,7 +388,7 @@ namespace cherrydev
         /// <summary>
         /// Process left mouse click event
         /// </summary>
-        /// <param _name="currentEvent"></param>
+        /// <param name="currentEvent"></param>
         private void ProcessLeftMouseDownEvent(Event currentEvent)
         {
             ProcessNodeSelection(currentEvent.mousePosition);
@@ -397,7 +397,7 @@ namespace cherrydev
         /// <summary>
         /// Process scroll wheel down event
         /// </summary>
-        /// <param _name="currentEvent"></param>
+        /// <param name="currentEvent"></param>
         /// <exception cref="NotImplementedException"></exception>
         private void ProcessScrollWheelDownEvent(Event currentEvent)
         {
@@ -408,7 +408,7 @@ namespace cherrydev
         /// <summary>
         /// Process mouse up event
         /// </summary>
-        /// <param _name="currentEvent"></param>
+        /// <param name="currentEvent"></param>
         private void ProcessMouseUpEvent(Event currentEvent)
         {
             if (currentEvent.button == 1)
@@ -424,7 +424,7 @@ namespace cherrydev
         /// <summary>
         /// Process right mouse up event
         /// </summary>
-        /// <param _name="currentEvent"></param>
+        /// <param name="currentEvent"></param>
         private void ProcessRightMouseUpEvent(Event currentEvent)
         {
             if (currentNodeGraph.nodeToDrawLineFrom != null)
@@ -437,7 +437,7 @@ namespace cherrydev
         /// <summary>
         /// Process scroll wheel up event
         /// </summary>
-        /// <param _name="currentEvent"></param>
+        /// <param name="currentEvent"></param>
         private void ProcessScrollWheelUpEvent(Event currentEvent)
         {
             selectionRect = new Rect(0, 0, 0, 0);
@@ -447,7 +447,7 @@ namespace cherrydev
         /// <summary>
         /// Process mouse drag event
         /// </summary>
-        /// <param _name="currentEvent"></param>
+        /// <param name="currentEvent"></param>
         /// <exception cref="NotImplementedException"></exception>
         private void ProcessMouseDragEvent(Event currentEvent)
         {
@@ -464,7 +464,7 @@ namespace cherrydev
         /// <summary>
         /// Process left mouse drag event
         /// </summary>
-        /// <param _name="currentEvent"></param>
+        /// <param name="currentEvent"></param>
         private void ProcessLeftMouseDragEvent(Event currentEvent)
         {
             SelectNodesBySelectionRect(currentEvent.mousePosition);
@@ -482,7 +482,7 @@ namespace cherrydev
         /// <summary>
         /// Process right mouse drag event
         /// </summary>
-        /// <param _name="currentEvent"></param>
+        /// <param name="currentEvent"></param>
         private void ProcessRightMouseDragEvent(Event currentEvent)
         {
             if (currentNodeGraph.nodeToDrawLineFrom != null)
@@ -495,7 +495,7 @@ namespace cherrydev
         /// <summary>
         /// Drag connecting line from the node
         /// </summary>
-        /// <param _name="delta"></param>
+        /// <param name="delta"></param>
         private void DragConnectiongLine(Vector2 delta)
         {
             currentNodeGraph.linePosition += delta;
@@ -504,7 +504,7 @@ namespace cherrydev
         /// <summary>
         /// Check line connect when right mouse up
         /// </summary>
-        /// <param _name="currentEvent"></param>
+        /// <param name="currentEvent"></param>
         private void CheckLineConnection(Event currentEvent)
         {
             if (currentNodeGraph.nodeToDrawLineFrom != null)
@@ -532,7 +532,7 @@ namespace cherrydev
         /// <summary>
         /// Process node selection, add to selected node list if node is selected
         /// </summary>
-        /// <param _name="mouseClickPosition"></param>
+        /// <param name="mouseClickPosition"></param>
         private void ProcessNodeSelection(Vector2 mouseClickPosition)
         {
             Node clickedNode = GetHighlightedNode(mouseClickPosition);
@@ -555,7 +555,7 @@ namespace cherrydev
         /// <summary>
         /// Draw selection rect and select all node in it
         /// </summary>
-        /// <param _name="mousePosition"></param>
+        /// <param name="mousePosition"></param>
         private void SelectNodesBySelectionRect(Vector2 mousePosition)
         {
             if (!isScrollWheelDragging)
@@ -581,7 +581,7 @@ namespace cherrydev
         /// <summary>
         /// Return the node that is at the mouse position
         /// </summary>
-        /// <param _name="mousePosition"></param>
+        /// <param name="mousePosition"></param>
         /// <returns></returns>
         private Node GetHighlightedNode(Vector2 mousePosition)
         {
@@ -604,7 +604,7 @@ namespace cherrydev
         /// <summary>
         /// Show the context menu
         /// </summary>
-        /// <param _name="mousePosition"></param>
+        /// <param name="mousePosition"></param>
         private void ShowContextMenu(Vector2 mousePosition)
         {
             GenericMenu contextMenu = new GenericMenu();
@@ -620,7 +620,7 @@ namespace cherrydev
         /// <summary>
         /// Create Sentence Node at mouse position and add it to Node Graph asset
         /// </summary>
-        /// <param _name="mousePositionObject"></param>
+        /// <param name="mousePositionObject"></param>
         private void CreateSentenceNode(object mousePositionObject)
         {
             SentenceNode sentenceNode = ScriptableObject.CreateInstance<SentenceNode>();
@@ -630,7 +630,7 @@ namespace cherrydev
         /// <summary>
         /// Create Answer Node at mouse position and add it to Node Graph asset
         /// </summary>
-        /// <param _name="mousePositionObject"></param>
+        /// <param name="mousePositionObject"></param>
         private void CreateAnswerNode(object mousePositionObject)
         {
             AnswerNode answerNode = ScriptableObject.CreateInstance<AnswerNode>();
@@ -640,7 +640,7 @@ namespace cherrydev
         /// <summary>
         /// Select all nodes in node editor
         /// </summary>
-        /// <param _name="userData"></param>
+        /// <param name="userData"></param>
         private void SelectAllNodes(object userData)
         {
             foreach (Node node in currentNodeGraph.nodesList)
@@ -654,7 +654,7 @@ namespace cherrydev
         /// <summary>
         /// Remove all selected nodes
         /// </summary>
-        /// <param _name="userData"></param>
+        /// <param name="userData"></param>
         private void RemoveSelectedNodes(object userData)
         {
             Queue<Node> nodeDeletionQueue = new Queue<Node>();
@@ -681,9 +681,9 @@ namespace cherrydev
         /// <summary>
         /// Create Node at mouse position and add it to Node Graph asset
         /// </summary>
-        /// <param _name="mousePositionObject"></param>
-        /// <param _name="node"></param>
-        /// <param _name="nodeName"></param>
+        /// <param name="mousePositionObject"></param>
+        /// <param name="node"></param>
+        /// <param name="nodeName"></param>
         private void InitialiseNode(object mousePositionObject, Node node, string nodeName)
         {
             Vector2 mousePosition = (Vector2)mousePositionObject;

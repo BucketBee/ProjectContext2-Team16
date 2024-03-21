@@ -12,29 +12,17 @@ public class InteractionBox : MonoBehaviour
     StarterAssetsInputs player;
     FirstPersonController control;
     CinemachineVirtualCamera cam;
-
-    NpcManager npcManager;
-
-    public float inspirationAmount = 0f;
-
-    private bool successfulInteraction = false;
-    private bool interactionCompleted = false;
     GameObject bg;
 
     private Vector3 initialCameraPosition;
     private Quaternion initialCameraRotation;
-
     void Start()
     {
         player = FindObjectOfType<StarterAssetsInputs>();
         control = FindObjectOfType<FirstPersonController>();
         cam = FindObjectOfType<CinemachineVirtualCamera>();
         bg = GameObject.Find("Background");
-        dialogBehaviour.BindExternalFunction("success", Success);
-    }
-    private void Success()
-    {
-        successfulInteraction = true;
+        bg.SetActive(false);
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -61,16 +49,10 @@ public class InteractionBox : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         cam.LookAt = null;
-        cam.transform.SetPositionAndRotation(initialCameraPosition, initialCameraRotation);
+        cam.transform.position = initialCameraPosition;
+        cam.transform.rotation = initialCameraRotation;
         GameObject myEventSystem = GameObject.Find("EventSystem");
         myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(null);
-
-        if (!interactionCompleted && successfulInteraction)
-        {
-            InspirationManager.ChangeInspirationMeter(inspirationAmount);
-            Debug.Log("Sent " + inspirationAmount + " inspiration to EventManager.");
-            interactionCompleted = true;
-        }
     }
 
     IEnumerator EnableBackground()
