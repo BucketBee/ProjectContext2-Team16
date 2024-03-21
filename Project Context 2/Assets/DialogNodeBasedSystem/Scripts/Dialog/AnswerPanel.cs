@@ -17,7 +17,7 @@ namespace cherrydev
         /// <summary>
         /// Instantiate answer buttons based on max amount of answer buttons
         /// </summary>
-        /// <param _name="maxAmountOfAnswerButtons"></param>
+        /// <param name="maxAmountOfAnswerButtons"></param>
         public void SetUpButtons(int maxAmountOfAnswerButtons)
         {
             for (int i = 0; i < maxAmountOfAnswerButtons; i++)
@@ -32,7 +32,7 @@ namespace cherrydev
         /// <summary>
         /// Returning button by index
         /// </summary>
-        /// <param _name="index"></param>
+        /// <param name="index"></param>
         /// <returns></returns>
         public Button GetButtonByIndex(int index)
         {
@@ -42,7 +42,7 @@ namespace cherrydev
         /// <summary>
         /// Returning button text bu index
         /// </summary>
-        /// <param _name="index"></param>
+        /// <param name="index"></param>
         /// <returns></returns>
         public TextMeshProUGUI GetButtonTextByIndex(int index)
         {
@@ -52,8 +52,8 @@ namespace cherrydev
         /// <summary>
         /// Setting UnityAction to button onClick event by index 
         /// </summary>
-        /// <param _name="index"></param>
-        /// <param _name="action"></param>
+        /// <param name="index"></param>
+        /// <param name="action"></param>
         public void AddButtonOnClickListener(int index, UnityAction action)
         {
             buttons[index].onClick.AddListener(action);
@@ -62,7 +62,7 @@ namespace cherrydev
         /// <summary>
         /// Enable certain amount of buttons
         /// </summary>
-        /// <param _name="amount"></param>
+        /// <param name="amount"></param>
         public void EnableCertainAmountOfButtons(int amount)
         {
             if (buttons.Count == 0)

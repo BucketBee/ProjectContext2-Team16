@@ -24,7 +24,8 @@ public class NotificationScriptableObjectManager : MonoBehaviour
     [SerializeField] private List<NotificationScriptableObject> notificationScriptableObjects = new List<NotificationScriptableObject>();
     private void Awake()
     {
-        EventManager.OnSceneSwitch += EnableNotifaction;
+        EventManager.OnSceneSwitchClose += ClearNotification;
+        EventManager.OnSceneSwitchOpen += EnableNotifaction;
     }
     public void AddNotification(NotificationScriptableObject _noteScriptableObjectInstance)
     {
@@ -76,9 +77,10 @@ public class NotificationScriptableObjectManager : MonoBehaviour
     {
         _noteScriptableObject = null;
     }
-    private void OnDisable()
+    private void OnDestroy()
     {
-        EventManager.OnSceneSwitch-= EnableNotifaction;
+        EventManager.OnSceneSwitchClose -= ClearNotification;
+        EventManager.OnSceneSwitchOpen -= EnableNotifaction;
         StopAllCoroutines();
     }
 }

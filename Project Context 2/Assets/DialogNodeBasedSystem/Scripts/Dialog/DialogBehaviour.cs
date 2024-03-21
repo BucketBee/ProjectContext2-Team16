@@ -69,7 +69,7 @@ namespace cherrydev
         /// <summary>
         /// Setting dialogCharDelay float parameter
         /// </summary>
-        /// <param _name="value"></param>
+        /// <param name="value"></param>
         public void SetCharDelay(float value)
         {
             dialogCharDelay = value;
@@ -78,7 +78,7 @@ namespace cherrydev
         /// <summary>
         /// Setting nextSentenceKeyCodes
         /// </summary>
-        /// <param _name="keyCodes"></param>
+        /// <param name="keyCodes"></param>
         public void SetNextSentenceKeyCodes(List<KeyCode> keyCodes)
         {
             nextSentenceKeyCodes = keyCodes;
@@ -87,7 +87,7 @@ namespace cherrydev
         /// <summary>
         /// Start a dialog
         /// </summary>
-        /// <param _name="dialogNodeGraph"></param>
+        /// <param name="dialogNodeGraph"></param>
         public void StartDialog(DialogNodeGraph dialogNodeGraph)
         {
             isDialogStarted = true;
@@ -111,8 +111,8 @@ namespace cherrydev
         /// This method is designed for ease of use. Calls a method 
         /// BindExternalFunction of the class DialogExternalFunctionsHandler
         /// </summary>
-        /// <param _name="funcName"></param>
-        /// <param _name="function"></param>
+        /// <param name="funcName"></param>
+        /// <param name="function"></param>
         public void BindExternalFunction(string funcName, Action function)
         {
             ExternalFunctionsHandler.BindExternalFunction(funcName, function);
@@ -121,7 +121,7 @@ namespace cherrydev
         /// <summary>
         /// Adding listener to OnDialogFinished UnityEvent
         /// </summary>
-        /// <param _name="action"></param>
+        /// <param name="action"></param>
         public void AddListenerToDialogFinishedEvent(UnityAction action)
         {
             onDialogFinished.AddListener(action);
@@ -130,7 +130,7 @@ namespace cherrydev
         /// <summary>
         /// Setting currentNode field to Node and call HandleDialogGraphCurrentNode method
         /// </summary>
-        /// <param _name="node"></param>
+        /// <param name="node"></param>
         public void SetCurrentNodeAndHandleDialogGraph(Node node)
         {
             currentNode = node;
@@ -140,7 +140,7 @@ namespace cherrydev
         /// <summary>
         /// Processing dialog current node
         /// </summary>
-        /// <param _name="currentNode"></param>
+        /// <param name="currentNode"></param>
         private void HandleDialogGraphCurrentNode(Node currentNode)
         {
             StopAllCoroutines();
@@ -158,7 +158,7 @@ namespace cherrydev
         /// <summary>
         /// Processing sentence node
         /// </summary>
-        /// <param _name="currentNode"></param>
+        /// <param name="currentNode"></param>
         private void HandleSentenceNode(Node currentNode)
         {
             SentenceNode sentenceNode = (SentenceNode)currentNode;
@@ -180,7 +180,7 @@ namespace cherrydev
         /// <summary>
         /// Processing answer node
         /// </summary>
-        /// <param _name="currentNode"></param>
+        /// <param name="currentNode"></param>
         private void HandleAnswerNode(Node currentNode)
         {
             AnswerNode answerNode = (AnswerNode)currentNode;
@@ -218,7 +218,7 @@ namespace cherrydev
         /// <summary>
         /// Finds the first node that does not have a parent node but has a child one
         /// </summary>
-        /// <param _name="dialogNodeGraph"></param>
+        /// <param name="dialogNodeGraph"></param>
         private void DefineFirstNode(DialogNodeGraph dialogNodeGraph)
         {
             if (dialogNodeGraph.nodesList.Count == 0)
@@ -251,7 +251,7 @@ namespace cherrydev
         /// <summary>
         /// Writing dialog text
         /// </summary>
-        /// <param _name="text"></param>
+        /// <param name="text"></param>
         private void WriteDialogText(string text)
         {
             StartCoroutine(WriteDialogTextRoutine(text));
@@ -260,7 +260,7 @@ namespace cherrydev
         /// <summary>
         /// Writing dialog text coroutine
         /// </summary>
-        /// <param _name="text"></param>
+        /// <param name="text"></param>
         /// <returns></returns>
         private IEnumerator WriteDialogTextRoutine(string text)
         {
