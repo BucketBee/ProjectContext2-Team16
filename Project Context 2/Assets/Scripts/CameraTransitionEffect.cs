@@ -50,13 +50,12 @@ public class CameraTransitionEffect : MonoBehaviour
         Vector3 finalPos = cameraToTransitionTo.position;
 
         float elapsedTime = 0f;
-
+       
         while (elapsedTime < time)
         {
             cameraToTransition.position = Vector3.Lerp(startingPos, finalPos, (elapsedTime / time));
-
-            elapsedTime += Time.deltaTime * curve.Evaluate(elapsedTime);
             Debug.Log(curve.Evaluate(elapsedTime));
+            elapsedTime += Time.deltaTime * curve.Evaluate(elapsedTime);
             lensDistortion.intensity.value = Mathf.Lerp(0.25f, 1f, elapsedTime);
             lensDistortion.scale.value = Mathf.Lerp(1f, 0.75f, elapsedTime);
             yield return null;
