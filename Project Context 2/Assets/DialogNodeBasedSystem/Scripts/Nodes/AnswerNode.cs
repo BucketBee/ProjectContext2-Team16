@@ -28,9 +28,9 @@ namespace cherrydev
         /// <summary>
         /// Answer node initialisation method
         /// </summary>
-        /// <param _name="rect"></param>
-        /// <param _name="nodeName"></param>
-        /// <param _name="nodeGraph"></param>
+        /// <param name="rect"></param>
+        /// <param name="nodeName"></param>
+        /// <param name="nodeGraph"></param>
         public override void Initialise(Rect rect, string nodeName, DialogNodeGraph nodeGraph)
         {
             base.Initialise(rect, nodeName, nodeGraph);
@@ -43,8 +43,8 @@ namespace cherrydev
         /// <summary>
         /// Draw Answer Node method
         /// </summary>
-        /// <param _name = "nodeStyle" ></ param >
-        /// < param _name="lableStyle"></param>
+        /// <param name = "nodeStyle" ></ param >
+        /// < param name="lableStyle"></param>
         public override void Draw(GUIStyle nodeStyle, GUIStyle lableStyle)
         {
             base.Draw(nodeStyle, lableStyle);
@@ -86,8 +86,8 @@ namespace cherrydev
         /// <summary>
         /// Draw answer line
         /// </summary>
-        /// <param _name="answerNumber"></param>
-        /// <param _name="iconPathOrName"></param>
+        /// <param name="answerNumber"></param>
+        /// <param name="iconPathOrName"></param>
         private void DrawAnswerLine(int answerNumber, string iconPathOrName)
         {
             EditorGUILayout.BeginHorizontal();
@@ -155,7 +155,7 @@ namespace cherrydev
         /// <summary>
         /// Adding nodeToAdd Node to the parentSentenceNode field
         /// </summary>
-        /// <param _name="nodeToAdd"></param>
+        /// <param name="nodeToAdd"></param>
         /// <returns></returns>
         public override bool AddToParentConnectedNode(Node nodeToAdd)
         {
@@ -172,7 +172,7 @@ namespace cherrydev
         /// <summary>
         /// Adding nodeToAdd Node to the childSentenceNodes array
         /// </summary>
-        /// <param _name="nodeToAdd"></param>
+        /// <param name="nodeToAdd"></param>
         /// <returns></returns>
         public override bool AddToChildConnectedNode(Node nodeToAdd)
         {

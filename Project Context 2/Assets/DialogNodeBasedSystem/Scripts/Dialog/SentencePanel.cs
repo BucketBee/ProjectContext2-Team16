@@ -21,16 +21,16 @@ namespace cherrydev
         /// <summary>
         /// Set dialog text max visible characters to dialog text length
         /// </summary>
-        /// <param _name="text"></param>
+        /// <param name="text"></param>
         public void ShowFullDialogText(string text)
         {
             dialogText.maxVisibleCharacters = text.Length;
         }
 
         /// <summary>
-        /// Assigning dialog _name text, character image sprite and dialog text
+        /// Assigning dialog name text, character image sprite and dialog text
         /// </summary>
-        /// <param _name="name"></param>
+        /// <param name="name"></param>
         public void Setup(string name, string text, Sprite sprite)
         {
             dialogNameText.text = name;

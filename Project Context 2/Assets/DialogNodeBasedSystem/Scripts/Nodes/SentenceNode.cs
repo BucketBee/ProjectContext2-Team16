@@ -24,7 +24,7 @@ namespace cherrydev
         private const float externalNodeHeight = 155f;
 
         /// <summary>
-        /// Returning external function _name
+        /// Returning external function name
         /// </summary>
         /// <returns></returns>
         public string GetExternalFunctionName()
@@ -33,7 +33,7 @@ namespace cherrydev
         }
 
         /// <summary>
-        /// Returning sentence character _name
+        /// Returning sentence character name
         /// </summary>
         /// <returns></returns>
         public string GetSentenceCharacterName()
@@ -44,7 +44,7 @@ namespace cherrydev
         /// <summary>
         /// Setting sentence text
         /// </summary>
-        /// <param _name="text"></param>
+        /// <param name="text"></param>
         /// <returns></returns>
         public void SetSentenceText(string text)
         {
@@ -83,8 +83,8 @@ namespace cherrydev
         /// <summary>
         /// Draw Sentence Node method
         /// </summary>
-        /// <param _name="nodeStyle"></param>
-        /// <param _name="lableStyle"></param>
+        /// <param name="nodeStyle"></param>
+        /// <param name="lableStyle"></param>
         public override void Draw(GUIStyle nodeStyle, GUIStyle lableStyle)
         {
             base.Draw(nodeStyle, lableStyle);
@@ -108,12 +108,12 @@ namespace cherrydev
         }
 
         /// <summary>
-        /// Draw label and text fields for char _name
+        /// Draw label and text fields for char name
         /// </summary>
         private void DrawCharacterNameFieldHorizontal()
         {
             EditorGUILayout.BeginHorizontal();
-            EditorGUILayout.LabelField($"_name ", GUILayout.Width(lableFieldSpace));
+            EditorGUILayout.LabelField($"Name ", GUILayout.Width(lableFieldSpace));
             sentence.characterName = EditorGUILayout.TextField(sentence.characterName, GUILayout.Width(textFieldWidth));
             EditorGUILayout.EndHorizontal();
         }
@@ -153,7 +153,7 @@ namespace cherrydev
 
                 EditorGUILayout.BeginHorizontal();
                 rect.height = externalNodeHeight;
-                EditorGUILayout.LabelField($"Func _name ", GUILayout.Width(lableFieldSpace));
+                EditorGUILayout.LabelField($"Func Name ", GUILayout.Width(lableFieldSpace));
                 externalFunctionName = EditorGUILayout.TextField(externalFunctionName,
                     GUILayout.Width(textFieldWidth));
                 EditorGUILayout.EndHorizontal();
@@ -168,7 +168,7 @@ namespace cherrydev
         /// <summary>
         /// Checking node size
         /// </summary>
-        /// <param _name="rect"></param>
+        /// <param name="rect"></param>
         public void CheckNodeSize(float width, float height)
         {
             rect.width = width;
@@ -191,7 +191,7 @@ namespace cherrydev
         /// <summary>
         /// Adding nodeToAdd Node to the childNode field
         /// </summary>
-        /// <param _name="nodeToAdd"></param>
+        /// <param name="nodeToAdd"></param>
         /// <returns></returns>
         public override bool AddToChildConnectedNode(Node nodeToAdd)
         {
@@ -224,7 +224,7 @@ namespace cherrydev
         /// <summary>
         /// Adding nodeToAdd Node to the parentNode field
         /// </summary>
-        /// <param _name="nodeToAdd"></param>
+        /// <param name="nodeToAdd"></param>
         /// <returns></returns>
         public override bool AddToParentConnectedNode(Node nodeToAdd)
         {

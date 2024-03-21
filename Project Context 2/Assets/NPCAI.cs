@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Drawing;
 using UnityEngine;
 using UnityEngine.AI; //important
 
@@ -23,13 +22,12 @@ public class NPCAI : MonoBehaviour
 
     void Update()
     {
-        
         if (agent.remainingDistance <= agent.stoppingDistance) //done with path
         {
             Vector3 point;
             if (RandomPoint(centrePoint.position, range, out point)) //pass in our centre point and radius of area
             {
-                Debug.DrawRay(point, Vector3.up, UnityEngine.Color.blue, 1.0f); //so you can see with gizmos
+                Debug.DrawRay(point, Vector3.up, Color.blue, 1.0f); //so you can see with gizmos
                 agent.SetDestination(point);
             }
         }
@@ -50,13 +48,6 @@ public class NPCAI : MonoBehaviour
 
         result = Vector3.zero;
         return false;
-    }
-    private void OnDrawGizmos()
-    {
-        if (centrePoint == null)
-            return;
-        Gizmos.color = UnityEngine.Color.red;
-        Gizmos.DrawWireSphere(centrePoint.position, range);
     }
 
 }
