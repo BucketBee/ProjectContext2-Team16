@@ -76,10 +76,9 @@ public class NotificationScriptableObjectManager : MonoBehaviour
     {
         _noteScriptableObject = null;
     }
-    private void OnDestroy()
+    private void OnDisable()
     {
         EventManager.OnSceneSwitch-= EnableNotifaction;
-
         StopAllCoroutines();
     }
 }
