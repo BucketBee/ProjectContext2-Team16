@@ -2,21 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class SetDestonationPlayer : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField]
-    private Transform target;
-
-    private PlayerTopDownMovementManager _playerManager;
-    private void Start()
-    {
-        _playerManager = FindObjectOfType<PlayerTopDownMovementManager>();
-       
-    }
+    private string Scene;
     public void OnPointerClick(PointerEventData eventData)
     {
-        _playerManager.SetDestonationPLayer(target);
+      SceneManager.LoadScene(Scene);
+      EventManager.CallOnSceneSwitch();
     }
     public void OnPointerDown(PointerEventData eventData)
     {

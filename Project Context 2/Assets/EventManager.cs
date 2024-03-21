@@ -5,6 +5,17 @@ using UnityEngine;
 
 public class EventManager : MonoBehaviour
 {
-    static public event Action OnSceneSwitchClose;
-    static public event Action OnSceneSwitchOpen;
+    static public event Action OnSceneSwitch;
+    static public event Action<CharacterInfoScriptableObject> OnCharacterChange;
+
+    static public void CallOnCharacterChangeEvent(CharacterInfoScriptableObject obj)
+    {
+        OnCharacterChange(obj);
+    }
+
+    static public void CallOnSceneSwitch()
+    {
+        OnSceneSwitch?.Invoke();
+    }
+
 }

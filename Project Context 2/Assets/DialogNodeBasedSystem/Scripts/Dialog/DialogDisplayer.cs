@@ -102,8 +102,8 @@ namespace cherrydev
         /// <summary>
         /// Enable or disable game object depends on isActive bool flag
         /// </summary>
-        /// <param name="gameObject"></param>
-        /// <param name="isActive"></param>
+        /// <param _name="gameObject"></param>
+        /// <param _name="isActive"></param>
         public void ActiveGameObject(GameObject gameObject, bool isActive)
         {
             if (gameObject == null)
@@ -118,8 +118,8 @@ namespace cherrydev
         /// <summary>
         /// Setting up answer button onClick event
         /// </summary>
-        /// <param name="index"></param>
-        /// <param name="answerNode"></param>
+        /// <param _name="index"></param>
+        /// <param _name="answerNode"></param>
         public void SetUpAnswerButtonsClickEvent(int index, AnswerNode answerNode)
         {
             dialogAnswerPanel.GetButtonByIndex(index).onClick.AddListener(() =>
@@ -131,8 +131,8 @@ namespace cherrydev
         /// <summary>
         /// Setting up answer dialog panel
         /// </summary>
-        /// <param name="index"></param>
-        /// <param name="answerText"></param>
+        /// <param _name="index"></param>
+        /// <param _name="answerText"></param>
         public void SetUpAnswerDialogPanel(int index, string answerText)
         {
             dialogAnswerPanel.GetButtonTextByIndex(index).text = answerText;
