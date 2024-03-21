@@ -72,7 +72,7 @@ public class NpcManager : MonoBehaviour
             npc.centrePoint = _centrePoint;
             _npcs.Add(instance);
             i++;
-            yield return new WaitForSeconds(.003f);
+            yield return new WaitForSeconds(.001f);
         }
         yield return new WaitForSeconds(.05f);
         ChangeTexturesNpcs();

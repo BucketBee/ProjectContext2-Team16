@@ -49,7 +49,7 @@ public class CameraTransitionEffect : MonoBehaviour
         Vector3 startingPos = cameraToTransition.position;
         Vector3 finalPos = cameraToTransitionTo.position;
 
-        float elapsedTime = 0f;
+        float elapsedTime = 1.5f;
        
         while (elapsedTime < time)
         {
