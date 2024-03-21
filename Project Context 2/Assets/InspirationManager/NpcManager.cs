@@ -18,12 +18,11 @@ public class NpcManager : MonoBehaviour
     [SerializeField]
     private int amountOfNpcs;
 
-    private float _inspirationMeter;
+   
     private int _inspirationAmountNpcs;
 
     private void Awake()
     {
-        SetInspirationMeter(EventManager.newInspiration);
         SpawnNpcs();
     }
     private void SpawnNpcs()
@@ -33,7 +32,7 @@ public class NpcManager : MonoBehaviour
 
     private int CalculateInspiredNpcs()
     {
-        return _inspirationAmountNpcs = (int)(_npcs.Count * (_inspirationMeter / 100));
+        return _inspirationAmountNpcs = (int)(_npcs.Count * (InspirationManager._inspirationMeter / 100));
     }
 
     private void ChangeTexturesNpcs()
@@ -73,16 +72,9 @@ public class NpcManager : MonoBehaviour
             npc.centrePoint = _centrePoint;
             _npcs.Add(instance);
             i++;
-            yield return new WaitForSeconds(.01f);
+            yield return new WaitForSeconds(.003f);
         }
         yield return new WaitForSeconds(.05f);
         ChangeTexturesNpcs();
     }
-
-    public void SetInspirationMeter(float amount)
-    {
-        _inspirationMeter += amount;
-        EventManager.newInspiration = 0f;
-    }
-
 }

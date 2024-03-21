@@ -57,7 +57,7 @@ public class InteractionBox : MonoBehaviour
 
         if (!interactionCompleted && successfulInteraction)
         {
-            EventManager.newInspiration += inspirationAmount;
+            InspirationManager.ChangeInspirationMeter(inspirationAmount);
             Debug.Log("Sent " + inspirationAmount + " inspiration to EventManager.");
             interactionCompleted = true;
         }
