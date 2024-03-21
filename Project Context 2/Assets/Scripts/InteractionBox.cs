@@ -19,12 +19,17 @@ public class InteractionBox : MonoBehaviour
 
     private bool successfulInteraction = false;
     private bool interactionCompleted = false;
+    GameObject bg;
+
+    private Vector3 initialCameraPosition;
+    private Quaternion initialCameraRotation;
 
     void Start()
     {
         player = FindObjectOfType<StarterAssetsInputs>();
         control = FindObjectOfType<FirstPersonController>();
         cam = FindObjectOfType<CinemachineVirtualCamera>();
+        bg = GameObject.Find("Background");
         dialogBehaviour.BindExternalFunction("success", Success);
     }
     private void Success()
@@ -56,8 +61,7 @@ public class InteractionBox : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         cam.LookAt = null;
-        cam.transform.position = initialCameraPosition;
-        cam.transform.rotation = initialCameraRotation;
+        cam.transform.SetPositionAndRotation(initialCameraPosition, initialCameraRotation);
         GameObject myEventSystem = GameObject.Find("EventSystem");
         myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(null);
 

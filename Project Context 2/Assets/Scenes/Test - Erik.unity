@@ -160,20 +160,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Message: DomKerk
---- !u!64 &152622102
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 152622099}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6795881094564970899, guid: 72e8b8bd2e9a2fc418d4f1a1b1cd0c89, type: 3}
 --- !u!114 &152622104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,6 +175,38 @@ MonoBehaviour:
   _materials:
   - {fileID: 2100000, guid: 084e340490a5cca419cb0808dd95d71f, type: 2}
   - {fileID: 2100000, guid: 5408815b01ebcfe47a2405c814abefc9, type: 2}
+  _particle: {fileID: 0}
+--- !u!114 &152622106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152622099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60748f8ae67eabe418febd15a37bf461, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+--- !u!65 &152622107
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152622099}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.163868, y: 1.3755164, z: 2.5889363}
+  m_Center: {x: -3.6847916, y: -1.9966993, z: -0.7932171}
+--- !u!4 &152622108 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7227081989490970845, guid: 72e8b8bd2e9a2fc418d4f1a1b1cd0c89, type: 3}
+  m_PrefabInstance: {fileID: 382718649}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &184683998 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6485159470362651116, guid: 72e8b8bd2e9a2fc418d4f1a1b1cd0c89, type: 3}
@@ -2191,6 +2209,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2092101879646545991, guid: 07075e50a8c655644bf49fb47c4294c4, type: 3}
+      propertyPath: cameraToTransitionTo
+      value: 
+      objectReference: {fileID: 152622108}
     - target: {fileID: 6967174234879774373, guid: 07075e50a8c655644bf49fb47c4294c4, type: 3}
       propertyPath: m_Name
       value: Camera RIg
