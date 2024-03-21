@@ -2,41 +2,44 @@ using StarterAssets;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
+
 public class CameraTransitionEffect : MonoBehaviour
 {
-    [SerializeField] private Volume postProcessing;
-    private LensDistortion lensDistortion;
+	[SerializeField] private Volume postProcessing;
+	private LensDistortion lensDistortion;
 
 
-    private Vector3 originalPosition;
+	private Vector3 originalPosition;
 
-    [SerializeField] private Transform cameraToTransition;
-    [SerializeField] private Transform cameraToTransitionTo;
-
-
-	[SerializeField] private GameObject objectToDisable;
-	[SerializeField] private GameObject objectToEnable;
+	[SerializeField] private Transform cameraToTransition;
+	[SerializeField] private Transform cameraToTransitionTo;
 
 	public AnimationCurve curve;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-		 postProcessing.profile.TryGet<LensDistortion>(out lensDistortion);
+	public static CameraTransitionEffect Instance;
+
+	private void Awake()
+	{
+		Instance = this;
 	}
 
-	private void Update()
+	void Start()
 	{
-		if(Input.GetKeyDown(KeyCode.K))
-		{
-			StartCoroutine(TransitionCamera());
-		}
+		//make sure this object doesnt get destroyed when switching to scenes
+		Object.DontDestroyOnLoad(gameObject);
+		postProcessing.profile.TryGet<LensDistortion>(out lensDistortion);
+
+		SceneManager.sceneLoaded += CallTransitionOut;
 	}
-	private IEnumerator TransitionCamera()
-    {
+
+	//this one does the zoom in. You could change cameraToTransitionTo to a different object, either the mouse position of 
+	//where you click, or a gameobject thats close to the scenario you select
+	public IEnumerator TransitionCameraIn(Scene _scene)
+	{
 		float time = 1.5f;
 		Vector3 startingPos = cameraToTransition.position;
 		Vector3 finalPos = cameraToTransitionTo.position;
@@ -46,16 +49,33 @@ public class CameraTransitionEffect : MonoBehaviour
 		while (elapsedTime < time)
 		{
 			cameraToTransition.position = Vector3.Lerp(startingPos, finalPos, (elapsedTime / time));
-			
+
 			elapsedTime += Time.deltaTime * curve.Evaluate(elapsedTime);
 			Debug.Log(curve.Evaluate(elapsedTime));
 			lensDistortion.intensity.value = Mathf.Lerp(0.25f, 1f, elapsedTime);
 			lensDistortion.scale.value = Mathf.Lerp(1f, 0.75f, elapsedTime);
 			yield return null;
 		}
-		objectToDisable.SetActive(false);
-		objectToEnable.SetActive(true);
-		elapsedTime = 0;
+
+		//Do the scene transition here
+		SceneManager.LoadScene(_scene.ToString());
+	}
+
+	//Call the transition backinwards to the camera when a new scene is loaded
+	//these parameters don't matter.
+	//the program just bitches if i dont use them
+	private void CallTransitionOut(Scene scene, LoadSceneMode mode)
+	{
+		lensDistortion.intensity.value = 1f;
+		lensDistortion.scale.value = 0.75f;
+		StartCoroutine(TransitionCameraOut());
+	}
+
+	private IEnumerator TransitionCameraOut()
+	{
+		float time = 1.5f;
+
+		float elapsedTime = 0;
 
 		while (elapsedTime < time)
 		{
