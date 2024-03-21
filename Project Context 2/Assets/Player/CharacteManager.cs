@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class CharacteManager : MonoBehaviour
 {
-    static public CharacterInfoScriptableObject currentCharacter { get; private set; }
+    static public CharacterInfoScriptableObject _currentCharacter { get; private set; }
+    [SerializeField]
+    private CharacterInfoScriptableObject _startCharacter;
     public static void ChangeCharacter(CharacterInfoScriptableObject character)
     {
-        currentCharacter= character;
+        _currentCharacter= character;
         EventManager.CallOnCharacterChangeEvent(character);
     }
     
