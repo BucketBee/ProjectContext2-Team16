@@ -174,6 +174,21 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6795881094564970899, guid: 72e8b8bd2e9a2fc418d4f1a1b1cd0c89, type: 3}
+--- !u!114 &152622104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152622099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ac48d8ea4bcdb749aebfc54b6c0bcc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _materials:
+  - {fileID: 2100000, guid: 084e340490a5cca419cb0808dd95d71f, type: 2}
+  - {fileID: 2100000, guid: 5408815b01ebcfe47a2405c814abefc9, type: 2}
 --- !u!1 &184683998 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6485159470362651116, guid: 72e8b8bd2e9a2fc418d4f1a1b1cd0c89, type: 3}
@@ -2321,8 +2336,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1489035276}
   - component: {fileID: 1489035275}
+  - component: {fileID: 1489035277}
   m_Layer: 0
-  m_Name: NpcManager
+  m_Name: WorldManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2362,6 +2378,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1489035277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489035274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7243c58886a19b419227d4273c30bc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _buildings:
+  - {fileID: 152622099}
 --- !u!1 &1503206758 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2509239481358635926, guid: 72e8b8bd2e9a2fc418d4f1a1b1cd0c89, type: 3}
