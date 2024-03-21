@@ -21,7 +21,7 @@ namespace cherrydev
             }
             else
             {
-                Debug.LogWarning($"There is no function with name '{funcName}'");
+                Debug.LogWarning($"There is no function with _name '{funcName}'");
                 return null;
             }
         }

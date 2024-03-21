@@ -16,8 +16,8 @@ namespace cherrydev
         /// <summary>
         /// Assigning values to nodeToDrawLineFrom and linePosition fields
         /// </summary>
-        /// <param name="nodeToDrawLineFrom"></param>
-        /// <param name="linePosition"></param>
+        /// <param _name="nodeToDrawLineFrom"></param>
+        /// <param _name="linePosition"></param>
         public void SetNodeToDrawLineFromAndLinePosition(Node nodeToDrawLineFrom, Vector2 linePosition)
         {
             this.nodeToDrawLineFrom = nodeToDrawLineFrom;
@@ -27,7 +27,7 @@ namespace cherrydev
         /// <summary>
         /// Draging all selected nodes
         /// </summary>
-        /// <param name="delta"></param>
+        /// <param _name="delta"></param>
         public void DragAllSelectedNodes(Vector2 delta)
         {
             foreach (var node in nodesList)

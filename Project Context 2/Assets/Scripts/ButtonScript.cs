@@ -10,7 +10,7 @@ public class ButtonScript : MonoBehaviour
     StarterAssetsInputs player;
     FirstPersonController control;
     CinemachineVirtualCamera cam;
-    // Start is called before the first frame update
+
     void Start()
     {
         player = FindObjectOfType<StarterAssetsInputs>();
@@ -30,5 +30,4 @@ public class ButtonScript : MonoBehaviour
         GameObject myEventSystem = GameObject.Find("EventSystem");
         myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(null);
     }
-
 }
