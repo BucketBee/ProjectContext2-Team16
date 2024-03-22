@@ -251,7 +251,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 679.5545, y: 741.6203}
-  m_SizeDelta: {x: -1459.1, y: 552.56}
+  m_SizeDelta: {x: -1459.1, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9141589556399865168
 CanvasRenderer:
@@ -492,7 +492,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3694393729744715891}
-  - component: {fileID: 5725075076170748691}
+  - component: {fileID: 5556056597228204032}
   m_Layer: 5
   m_Name: Buttons
   m_TagString: Untagged
@@ -520,7 +520,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &5725075076170748691
+--- !u!114 &5556056597228204032
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -540,10 +540,10 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 400, y: 150}
-  m_Spacing: {x: 25, y: 25}
-  m_Constraint: 2
-  m_ConstraintCount: 2
+  m_CellSize: {x: 400, y: 125}
+  m_Spacing: {x: 0, y: 20}
+  m_Constraint: 1
+  m_ConstraintCount: 1
 --- !u!1 &7237760433544743376
 GameObject:
   m_ObjectHideFlags: 0
