@@ -60,7 +60,6 @@ public class NpcManager : MonoBehaviour
         while (i <= amountOfNpcs)
         {
             Vector3 pos;
-
             do
             {
                 pos = _center + new Vector3(Random.Range(-_size.x / 2, _size.x / 2), _size.y, Random.Range(-_size.z / 2, _size.z / 2));
@@ -72,7 +71,7 @@ public class NpcManager : MonoBehaviour
             npc.centrePoint = _centrePoint;
             _npcs.Add(instance);
             i++;
-            yield return new WaitForSeconds(.001f);
+            yield return new WaitForEndOfFrame();
         }
         yield return new WaitForSeconds(.05f);
         ChangeTexturesNpcs();
