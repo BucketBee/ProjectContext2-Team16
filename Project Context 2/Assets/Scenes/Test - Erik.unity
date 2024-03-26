@@ -20412,7 +20412,7 @@ MonoBehaviour:
   _characterName: {fileID: 1526004383}
   _characterInfo: {fileID: 1102995859}
   _characterIcon: {fileID: 734433145}
-  _startingCharacter: {fileID: 11400000, guid: cf8ca690ce8b3e74d9d66d6d418aebc6, type: 2}
+  _startingCharacter: {fileID: 11400000, guid: 26b25a33752221d48ae368e48169734b, type: 2}
 --- !u!1001 &973039004
 PrefabInstance:
   m_ObjectHideFlags: 0
