@@ -9,6 +9,7 @@ public class InteractionBox : MonoBehaviour
 {
     [SerializeField] private DialogBehaviour dialogBehaviour;
     [SerializeField] private DialogNodeGraph dialogGraph;
+    [SerializeField] private int _newGameState;
 
     StarterAssetsInputs player;
     FirstPersonController control;
@@ -72,6 +73,7 @@ public class InteractionBox : MonoBehaviour
         //Cursor.visible = false;
         //cam.LookAt = null;
         //cam.transform.SetPositionAndRotation(initialCameraPosition, initialCameraRotation);
+        EventManager.CallOnSceneSwitch();
         GameObject myEventSystem = GameObject.Find("EventSystem");
         myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(null);
         if (NextScene != null)

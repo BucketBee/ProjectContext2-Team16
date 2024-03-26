@@ -21,12 +21,12 @@ public class NotificationScriptableObjectManager : MonoBehaviour
     [Header("Notifaction Animation")]
     [SerializeField] private Animator _notifacitonAnim;
 
-    [SerializeField] private List<NotificationScriptableObject> notificationScriptableObjects = new List<NotificationScriptableObject>();
+    [SerializeField] static private List<NotificationScriptableObject> notificationScriptableObjects = new List<NotificationScriptableObject>();
     private void Awake()
     {
         EventManager.OnSceneSwitch += EnableNotifaction;
     }
-    public void AddNotification(NotificationScriptableObject _noteScriptableObjectInstance)
+    static public void AddNotification(NotificationScriptableObject _noteScriptableObjectInstance)
     {
         notificationScriptableObjects.Add(_noteScriptableObjectInstance);
     }
@@ -46,7 +46,7 @@ public class NotificationScriptableObjectManager : MonoBehaviour
         _noteScriptableObject = notificationScriptableObjects[0];
         _notifacitonAnim.Play("NotificationAnimationFadeIn");
         _notificationTextUI.text = _noteScriptableObject._notifactionMessage;
-        _notificationIconUI.sprite = _noteScriptableObject._icon;
+
 
         if (_noteScriptableObject._disableAfterTimer)
         {
@@ -75,6 +75,10 @@ public class NotificationScriptableObjectManager : MonoBehaviour
     public void ClearNotification()
     {
         _noteScriptableObject = null;
+    }
+    static public void ClearNotificationList()
+    {
+        notificationScriptableObjects.Clear();
     }
     private void OnDisable()
     {

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class InspirationManager : MonoBehaviour
 {
-    static public float _inspirationMeter { get; private set; } = 40f;
+    static public float _inspirationMeter { get; private set; } = 20f;
 
     static public void ChangeInspirationMeter(float amount)
     {

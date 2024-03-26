@@ -6,7 +6,6 @@ using UnityEngine;
 public class NotificationScriptableObject : ScriptableObject
 {
     [Header("Message Customisation")]
-    public Sprite _icon;
    [TextArea] public string _notifactionMessage;
 
     [Header("Message Customisation")]
