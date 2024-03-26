@@ -74,7 +74,7 @@ public class CameraTransitionEffect : MonoBehaviour
     {
         lensDistortion.intensity.value = 1f;
         lensDistortion.scale.value = 0.75f;
-        StartCoroutine(TransitionCameraOut());
+        //StartCoroutine(TransitionCameraOut());
     }
 
     private IEnumerator TransitionCameraOut()

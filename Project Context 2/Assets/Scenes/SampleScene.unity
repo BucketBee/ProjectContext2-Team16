@@ -37,8 +37,8 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!108 &705507994 stripped
-Light:
-  m_CorrespondingSourceObject: {fileID: 8239891774862588781, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
-  m_PrefabInstance: {fileID: 8239891775567022583}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8239891775567022583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -138,6 +133,10 @@ PrefabInstance:
     - target: {fileID: 2432284990378433342, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854219184016841250, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -23.948788
       objectReference: {fileID: 0}
     - target: {fileID: 3854219184016841250, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
       propertyPath: m_LocalRotation.w
@@ -162,6 +161,10 @@ PrefabInstance:
     - target: {fileID: 5529200545017078536, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
       propertyPath: m_margin.z
       value: 40.84265
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188265392652677389, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -23.948788
       objectReference: {fileID: 0}
     - target: {fileID: 7895782740107482022, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
       propertyPath: m_SizeDelta.x
@@ -259,6 +262,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+    - target: {fileID: 8239891776458850066, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
+      propertyPath: NextSceneOnSuccess
+      value: 
+      objectReference: {fileID: 102900000, guid: 8b53d5e9e24637743905651732e5845d, type: 3}
     - target: {fileID: 8239891776458850069, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

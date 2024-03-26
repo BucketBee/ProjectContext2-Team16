@@ -3,6 +3,7 @@ using Cinemachine;
 using StarterAssets;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class InteractionBox : MonoBehaviour
 {
@@ -13,9 +14,11 @@ public class InteractionBox : MonoBehaviour
     FirstPersonController control;
     CinemachineVirtualCamera cam;
 
-    NpcManager npcManager;
-
     public float inspirationAmount = 0f;
+    public Object NextSceneOnSuccess;
+    public Object NextSceneOnFail;
+
+    private Object NextScene;
 
     private bool successfulInteraction = false;
     private bool interactionCompleted = false;
@@ -31,10 +34,17 @@ public class InteractionBox : MonoBehaviour
         cam = FindObjectOfType<CinemachineVirtualCamera>();
         bg = GameObject.Find("Background");
         dialogBehaviour.BindExternalFunction("success", Success);
+        dialogBehaviour.BindExternalFunction("fail", Fail);
     }
     private void Success()
     {
-        successfulInteraction = true;
+            successfulInteraction = true;
+            NextScene = NextSceneOnSuccess;
+    }
+
+    public void Fail()
+    {
+            NextScene = NextSceneOnFail;
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -54,16 +64,22 @@ public class InteractionBox : MonoBehaviour
     }
     public void EndConvo()
     {
-        control.enabled = true;
-        StartCoroutine(DisableBackground());
-        player.cursorInputForLook = true;
-        player.cursorLocked = true;
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-        cam.LookAt = null;
-        cam.transform.SetPositionAndRotation(initialCameraPosition, initialCameraRotation);
+        //control.enabled = true;
+        //StartCoroutine(DisableBackground());
+        //player.cursorInputForLook = true;
+        //player.cursorLocked = true;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
+        //cam.LookAt = null;
+        //cam.transform.SetPositionAndRotation(initialCameraPosition, initialCameraRotation);
         GameObject myEventSystem = GameObject.Find("EventSystem");
         myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(null);
+        if (NextScene != null)
+        {
+            SceneManager.LoadScene(NextScene.name);
+        }
+        else
+            SceneManager.LoadScene("Test - Erik");
 
         if (!interactionCompleted && successfulInteraction)
         {

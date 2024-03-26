@@ -46,6 +46,7 @@ namespace cherrydev
             dialogCharacterImage.color = new Color(dialogCharacterImage.color.r,
                     dialogCharacterImage.color.g, dialogCharacterImage.color.b, 255);
             dialogCharacterImage.sprite = sprite;
+            dialogCharacterImage.SetNativeSize();
         }
 
         /// <summary>
