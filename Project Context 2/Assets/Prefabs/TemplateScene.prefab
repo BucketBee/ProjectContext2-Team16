@@ -1507,7 +1507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3210452696996365553, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4825435160123347712, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: m_Name
@@ -1519,7 +1519,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6155067393627945589, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7250229689785646963, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: onDialogFinished.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1527,11 +1527,11 @@ PrefabInstance:
       objectReference: {fileID: 8239891776458850066}
     - target: {fileID: 7443707679215091450, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7929989877327225702, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
