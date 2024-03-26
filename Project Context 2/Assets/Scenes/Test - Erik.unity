@@ -31531,9 +31531,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2accd17a7b3e29748be19b41144c2d28, type: 2}
   - {fileID: 11400000, guid: f64b8b740fe33034b83736d1569a3040, type: 2}
   - {fileID: 11400000, guid: 4459053a5b27a5645949e8b632427c27, type: 2}
-  newPapersState1: []
-  newPapersState2: []
-  newPapersState3: []
+  newPapersState1:
+  - {fileID: 11400000, guid: ea68530bc1af2eb4a91db7c777e9267a, type: 2}
+  newPapersState2:
+  - {fileID: 11400000, guid: 2accd17a7b3e29748be19b41144c2d28, type: 2}
+  newPapersState3:
+  - {fileID: 11400000, guid: f64b8b740fe33034b83736d1569a3040, type: 2}
 --- !u!1001 &1452303312
 PrefabInstance:
   m_ObjectHideFlags: 0

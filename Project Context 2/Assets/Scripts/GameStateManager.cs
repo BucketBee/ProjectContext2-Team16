@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameStateManager : MonoBehaviour
 {
-    static public int gameState { get; private set; } = 0;
+    static public int gameState { get; private set; } = 3;
     public NotificationScriptableObject[] newPapersState0;
     public NotificationScriptableObject[] newPapersState1;
     public NotificationScriptableObject[] newPapersState2;
@@ -37,18 +37,18 @@ public class GameStateManager : MonoBehaviour
                     break;
                 case 1:
                     NotificationScriptableObjectManager.AddNotification(newPapersState1[0]);
-                    NotificationScriptableObjectManager.AddNotification(newPapersState1[Random.Range(1, newPapersState0.Length - 1)]);
-                    NotificationScriptableObjectManager.AddNotification(newPapersState1[Random.Range(1, newPapersState0.Length - 1)]);
+                    //NotificationScriptableObjectManager.AddNotification(newPapersState1[Random.Range(1, newPapersState0.Length - 1)]);
+                   // NotificationScriptableObjectManager.AddNotification(newPapersState1[Random.Range(1, newPapersState0.Length - 1)]);
                     break;
                 case 2:
                     NotificationScriptableObjectManager.AddNotification(newPapersState2[0]);
-                    NotificationScriptableObjectManager.AddNotification(newPapersState2[Random.Range(1, newPapersState0.Length - 1)]);
-                    NotificationScriptableObjectManager.AddNotification(newPapersState2[Random.Range(1, newPapersState0.Length - 1)]);
+                    //NotificationScriptableObjectManager.AddNotification(newPapersState2[Random.Range(1, newPapersState0.Length - 1)]);
+                   // NotificationScriptableObjectManager.AddNotification(newPapersState2[Random.Range(1, newPapersState0.Length - 1)]);
                     break;
                 case 3:
                     NotificationScriptableObjectManager.AddNotification(newPapersState3[0]);
-                    NotificationScriptableObjectManager.AddNotification(newPapersState3[Random.Range(1, newPapersState0.Length - 1)]);
-                    NotificationScriptableObjectManager.AddNotification(newPapersState3[Random.Range(1, newPapersState0.Length - 1)]);
+                  //  NotificationScriptableObjectManager.AddNotification(newPapersState3[Random.Range(1, newPapersState0.Length - 1)]);
+                   // NotificationScriptableObjectManager.AddNotification(newPapersState3[Random.Range(1, newPapersState0.Length - 1)]);
                     break;
             }
         }
