@@ -214,5 +214,9 @@ PrefabInstance:
       propertyPath: NextSceneOnFail
       value: 
       objectReference: {fileID: 102900000, guid: 260401e986c8714428fd5f48d636bb3a, type: 3}
+    - target: {fileID: 8239891776458850066, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
+      propertyPath: inspirationAmount
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
