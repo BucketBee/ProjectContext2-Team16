@@ -16,8 +16,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 541
-    y: 3603
+    x: 464
+    y: 22
     width: 190
     height: 135
   isDragging: 0
@@ -25,7 +25,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: Come back with hands-on evidence and we may further this conversation.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: bc53023b07b702147918ffa22ace5e73, type: 3}
   parentNode: {fileID: 1853267883911333019}
   childNode: {fileID: 6004071042715050818}
   isExternalFunc: 0
@@ -46,8 +46,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -322
-    y: 1613
+    x: -399
+    y: -1968
     width: 190
     height: 135
   isDragging: 0
@@ -55,7 +55,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: But -
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: 4939159839562939398}
   childNode: {fileID: -7300853390227251475}
   isExternalFunc: 0
@@ -76,8 +76,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 178
-    y: 2604
+    x: 101
+    y: -977
     width: 190
     height: 135
   isDragging: 0
@@ -87,7 +87,7 @@ MonoBehaviour:
     text: See, that's exactly the thing. Sure, It sounds nice and all but... There's
       no way for me to know if all this ... *Change* really is going to be worth
       it. Think about time, resources.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: 1387652594491586599}
   childNode: {fileID: 3742929673941894475}
   isExternalFunc: 0
@@ -108,8 +108,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 418
-    y: 965
+    x: 341
+    y: -2616
     width: 190
     height: 135
   isDragging: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: Well, yes, but-
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: 4662388413182116170}
   childNode: {fileID: 6904409126673053266}
   isExternalFunc: 0
@@ -138,8 +138,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1614
-    y: 4091
+    x: 1537
+    y: 510
     width: 190
     height: 135
   isDragging: 0
@@ -147,7 +147,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: Diverse Candidate Sourcing it is.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 59aba5d5669daac42a56790f705592be, type: 3}
   parentNode: {fileID: 7807952620024460686}
   childNode: {fileID: -3113525117287148519}
   isExternalFunc: 0
@@ -168,8 +168,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 350
-    y: 3343
+    x: 273
+    y: -238
     width: 190
     height: 135
   isDragging: 0
@@ -177,7 +177,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: Sir?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 0f049f2f307669440a6ea8740695f10b, type: 3}
   parentNode: {fileID: -7119927849703701161}
   childNode: {fileID: -6772007180293460869}
   isExternalFunc: 0
@@ -198,8 +198,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 721
-    y: 1089
+    x: 644
+    y: -2492
     width: 190
     height: 135
   isDragging: 0
@@ -207,7 +207,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: No, obviously not, but -
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 0f049f2f307669440a6ea8740695f10b, type: 3}
   parentNode: {fileID: 8496595285957975115}
   childNode: {fileID: 3984586918284475419}
   isExternalFunc: 0
@@ -228,8 +228,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -136
-    y: 824
+    x: -213
+    y: -2757
     width: 190
     height: 135
   isDragging: 0
@@ -237,7 +237,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: Wow, sounding like a true socialist, I'm impressed.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 59aba5d5669daac42a56790f705592be, type: 3}
   parentNode: {fileID: 7069303638845411304}
   childNode: {fileID: -1519296637443573891}
   isExternalFunc: 0
@@ -258,8 +258,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -103
-    y: -1143
+    x: -180
+    y: -4724
     width: 190
     height: 135
   isDragging: 0
@@ -268,7 +268,7 @@ MonoBehaviour:
     characterName: Denise
     text: "No, Sir. I\u2019d like to apologise. I was out of line, and I intend to
       do better."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: d2bb210ba236b9d4a9ca005a2c63ad25, type: 3}
   parentNode: {fileID: -7335686396606571458}
   childNode: {fileID: 4916289745650097300}
   isExternalFunc: 0
@@ -289,8 +289,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -104
-    y: -1274
+    x: -181
+    y: -4855
     width: 190
     height: 135
   isDragging: 0
@@ -298,7 +298,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: (thinking) Calm, Denise. Patience, remember?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: 3226185806064464465}
   childNode: {fileID: -7613755899083209838}
   isExternalFunc: 0
@@ -319,8 +319,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -132
-    y: 1613
+    x: -209
+    y: -1968
     width: 190
     height: 135
   isDragging: 0
@@ -330,7 +330,7 @@ MonoBehaviour:
     text: 'ENOUGH, Denise. You''ve tried twice, and failed twice. Clearly we won''t
       reach an understanding about this, so drop it! You may take it back up once
       you lead this company. '
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7e48ef37d169a594ba7c2065d265b08a, type: 3}
   parentNode: {fileID: -8742230636632778153}
   childNode: {fileID: 7582505846877223677}
   isExternalFunc: 0
@@ -351,8 +351,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 549
-    y: 4091
+    x: 472
+    y: 510
     width: 190
     height: 135
   isDragging: 0
@@ -362,7 +362,7 @@ MonoBehaviour:
     text: "If that is so, I\u2019d pick Diversity training for interviewers. It will
       ensure that all candidates are evaluated fairly and that interviewers are equipped
       to recognize and mitigate biases during the selection  process."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: a5a85c91b81622e44831a482958217a8, type: 3}
   parentNode: {fileID: 6978309132823466055}
   childNode: {fileID: -4652976611528660238}
   isExternalFunc: 0
@@ -383,8 +383,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 11
-    y: -1
+    x: -66
+    y: -3582
     width: 190
     height: 135
   isDragging: 0
@@ -392,7 +392,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: I suppose.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: 5311492343185758834}
   childNode: {fileID: 2691565461215360092}
   isExternalFunc: 0
@@ -413,8 +413,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 537
-    y: 3209
+    x: 460
+    y: -372
     width: 190
     height: 135
   isDragging: 0
@@ -422,7 +422,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: Mmhmmm...
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: -4418788299494175661}
   childNode: {fileID: -8214387171568329840}
   isExternalFunc: 0
@@ -443,8 +443,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 539
-    y: 3347
+    x: 462
+    y: -234
     width: 190
     height: 135
   isDragging: 0
@@ -453,7 +453,7 @@ MonoBehaviour:
     characterName: Richard
     text: Yeah, Denise, if I had wanted an exposition on the 'merits of diversity',
       I could just listen to my daughter's socio-politics presentation.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7e48ef37d169a594ba7c2065d265b08a, type: 3}
   parentNode: {fileID: -8214387171568329840}
   childNode: {fileID: 2337433156796708399}
   isExternalFunc: 0
@@ -474,8 +474,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 122
-    y: -639
+    x: 45
+    y: -4220
     width: 190
     height: 135
   isDragging: 0
@@ -485,7 +485,7 @@ MonoBehaviour:
     text: "Well, I believe there is value in agreeing to disagree on some standpoints,
       but that doesn\u2019t mean there can\u2019t be any mutual respect, still. I
       see you\u2019re trying to do what is best for the company, and I respect that."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: 5057045067565370435}
   childNode: {fileID: 1330270309171773391}
   isExternalFunc: 0
@@ -506,8 +506,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -178
-    y: -129
+    x: -255
+    y: -3710
     width: 190
     height: 135
   isDragging: 0
@@ -516,7 +516,7 @@ MonoBehaviour:
     characterName: Denise
     text: You're right. It was a non-constructive conversation. But as i said, I
       intend to do better. Please, give me a chance.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: 2996552426785239997}
   childNode: {fileID: 5311492343185758834}
   isExternalFunc: 0
@@ -537,8 +537,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 113
-    y: 3359
+    x: 35
+    y: -222
     width: 190
     height: 135
   isDragging: 0
@@ -546,7 +546,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: Please, grow up.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: 716912810642425261}
   childNode: {fileID: -1944774331833526004}
   isExternalFunc: 0
@@ -567,8 +567,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 719
-    y: 959
+    x: 642
+    y: -2622
     width: 190
     height: 135
   isDragging: 0
@@ -577,7 +577,7 @@ MonoBehaviour:
     characterName: Denise
     text: But I'm trying to tell you how much these changes could help the company.
       I'd guessed you care about the company, or was I wrong?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 0f049f2f307669440a6ea8740695f10b, type: 3}
   parentNode: {fileID: -366613781252050626}
   childNode: {fileID: 8496595285957975115}
   isExternalFunc: 0
@@ -598,8 +598,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 727
-    y: 2305
+    x: 650
+    y: -1276
     width: 190
     height: 135
   isDragging: 0
@@ -610,7 +610,7 @@ MonoBehaviour:
       between the two of us, I simply went to the supermarket and put the cake on
       a plate from home. He paraded it around, he was so proud of it - his first
       ever self-made meal!
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: bc53023b07b702147918ffa22ace5e73, type: 3}
   parentNode: {fileID: -4735157401460204490}
   childNode: {fileID: -223704556911201936}
   isExternalFunc: 0
@@ -631,8 +631,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 718
-    y: 2874
+    x: 641
+    y: -707
     width: 190
     height: 155
   isDragging: 0
@@ -662,8 +662,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1188
-    y: 4755
+    x: 1111
+    y: 1174
     width: 190
     height: 135
   isDragging: 0
@@ -671,7 +671,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: Thank you, Denise.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6359047cff43f384496d5f508c9b5ebe, type: 3}
   parentNode: {fileID: -1392920103686970694}
   childNode: {fileID: -4351781525447362766}
   isExternalFunc: 0
@@ -692,8 +692,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 544
-    y: 3734
+    x: 467
+    y: 153
     width: 190
     height: 135
   isDragging: 0
@@ -702,7 +702,7 @@ MonoBehaviour:
     characterName: Richard
     text: Snowflake media propaganda as far as I'm concerned. Come back with something
       believable and we can continue this conversation.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7e48ef37d169a594ba7c2065d265b08a, type: 3}
   parentNode: {fileID: 6004071042715050818}
   childNode: {fileID: 0}
   isExternalFunc: 0
@@ -723,8 +723,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -722
-    y: -127
+    x: -799
+    y: -3708
     width: 190
     height: 135
   isDragging: 0
@@ -732,7 +732,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: This is ridiculous! It's like my opinion doesn't even matter to you!
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 50716366e2686c74da2d0f7bb75f77a1, type: 3}
   parentNode: {fileID: 2996552426785239997}
   childNode: {fileID: 1815340908440134701}
   isExternalFunc: 0
@@ -753,8 +753,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -14
-    y: 2470
+    x: -91
+    y: -1111
     width: 190
     height: 135
   isDragging: 0
@@ -762,7 +762,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: What do you think?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 0f049f2f307669440a6ea8740695f10b, type: 3}
   parentNode: {fileID: 3746161379122817951}
   childNode: {fileID: 7493892661241743404}
   isExternalFunc: 0
@@ -783,8 +783,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -711
-    y: 131
+    x: -788
+    y: -3450
     width: 190
     height: 135
   isDragging: 0
@@ -792,7 +792,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: Rotting?! I left it for a day!
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 50716366e2686c74da2d0f7bb75f77a1, type: 3}
   parentNode: {fileID: 7001656705396450707}
   childNode: {fileID: 8387687140811355483}
   isExternalFunc: 0
@@ -813,8 +813,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 727
-    y: 2175
+    x: 650
+    y: -1406
     width: 190
     height: 135
   isDragging: 0
@@ -823,7 +823,7 @@ MonoBehaviour:
     characterName: Richard
     text: "Well, yes. Matter of fact I\u2019ve met some of my best friends either
       at this very location, or at the get-togethers at HQ. There was this time -"
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6359047cff43f384496d5f508c9b5ebe, type: 3}
   parentNode: {fileID: -1383642861866767528}
   childNode: {fileID: -5573729771180131862}
   isExternalFunc: 0
@@ -844,8 +844,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 735
-    y: 4090
+    x: 658
+    y: 509
     width: 190
     height: 135
   isDragging: 0
@@ -853,7 +853,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: Diversity training for interviewers it is.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 59aba5d5669daac42a56790f705592be, type: 3}
   parentNode: {fileID: -7265431024930392339}
   childNode: {fileID: -3113525117287148519}
   isExternalFunc: 0
@@ -874,8 +874,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -137
-    y: 1083
+    x: -214
+    y: -2498
     width: 190
     height: 135
   isDragging: 0
@@ -883,7 +883,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: With Disgust.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7e48ef37d169a594ba7c2065d265b08a, type: 3}
   parentNode: {fileID: -1519296637443573891}
   childNode: {fileID: 366354930742098605}
   isExternalFunc: 0
@@ -904,8 +904,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 349
-    y: 3213
+    x: 272
+    y: -368
     width: 190
     height: 135
   isDragging: 0
@@ -915,7 +915,7 @@ MonoBehaviour:
     text: Furthermore, diverse work-forces enable companies to better understand
       and serve a diverse customer base. They also have higher innovation revenue
       than less diverse teams.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: a5a85c91b81622e44831a482958217a8, type: 3}
   parentNode: {fileID: 6011759943759021699}
   childNode: {fileID: -7119927849703701161}
   isExternalFunc: 0
@@ -936,8 +936,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1106
-    y: 4934
+    x: 1029
+    y: 1353
     width: 190
     height: 135
   isDragging: 0
@@ -966,8 +966,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -381
-    y: -1146
+    x: -458
+    y: -4727
     width: 190
     height: 135
   isDragging: 0
@@ -975,7 +975,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: Tsk, women.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: bc53023b07b702147918ffa22ace5e73, type: 3}
   parentNode: {fileID: -952000302259017220}
   childNode: {fileID: 7336074875583803060}
   isExternalFunc: 0
@@ -996,8 +996,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 988
-    y: 3709
+    x: 911
+    y: 128
     width: 190
     height: 155
   isDragging: 0
@@ -1027,8 +1027,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 725
-    y: 2693
+    x: 648
+    y: -888
     width: 190
     height: 135
   isDragging: 0
@@ -1036,7 +1036,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: I suppose I understand now. So what is it you would want to do?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: 8619464959015644445}
   childNode: {fileID: -5363704783148776672}
   isExternalFunc: 0
@@ -1057,8 +1057,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 995
-    y: 4627
+    x: 918
+    y: 1046
     width: 190
     height: 135
   isDragging: 0
@@ -1066,7 +1066,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: "I understand, Sir. I won\u2019t disappoint."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: a5a85c91b81622e44831a482958217a8, type: 3}
   parentNode: {fileID: 3427704692019368092}
   childNode: {fileID: -1392920103686970694}
   isExternalFunc: 0
@@ -1087,8 +1087,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1182
-    y: 4367
+    x: 1105
+    y: 786
     width: 190
     height: 135
   isDragging: 0
@@ -1097,7 +1097,7 @@ MonoBehaviour:
     characterName: Richard
     text: Please provide me with a summary and an action plan, so that I know what
       to expect...
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6359047cff43f384496d5f508c9b5ebe, type: 3}
   parentNode: {fileID: -8463601555022808080}
   childNode: {fileID: 3427704692019368092}
   isExternalFunc: 0
@@ -1118,8 +1118,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -248
-    y: -505
+    x: -325
+    y: -4086
     width: 190
     height: 135
   isDragging: 0
@@ -1127,7 +1127,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: You had plenty of a chance last time we talked, and much good that did...
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7e48ef37d169a594ba7c2065d265b08a, type: 3}
   parentNode: {fileID: 1856659331564828725}
   childNode: {fileID: 2996552426785239997}
   isExternalFunc: 0
@@ -1148,8 +1148,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 725
-    y: 1483
+    x: 648
+    y: -2098
     width: 190
     height: 135
   isDragging: 0
@@ -1157,7 +1157,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: ...
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 0f049f2f307669440a6ea8740695f10b, type: 3}
   parentNode: {fileID: -1430903969951835981}
   childNode: {fileID: 4294917268516508788}
   isExternalFunc: 0
@@ -1178,8 +1178,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 720
-    y: 828
+    x: 643
+    y: -2753
     width: 190
     height: 135
   isDragging: 0
@@ -1189,7 +1189,7 @@ MonoBehaviour:
     text: I believe working on our hiring policies could greatly increase our rate
       of success as a company. It's been shown that diverse work environments were
       33% more likely to have industry - leading profitability, furthermore -
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: a5a85c91b81622e44831a482958217a8, type: 3}
   parentNode: {fileID: 1960018291676130480}
   childNode: {fileID: -366613781252050626}
   isExternalFunc: 0
@@ -1210,8 +1210,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 111
-    y: 3488
+    x: 34
+    y: -93
     width: 190
     height: 135
   isDragging: 0
@@ -1221,7 +1221,7 @@ MonoBehaviour:
     text: I believe I have dedicated enough of my precious time to your yapping.
       You care about the future of the company? Make sure we don't miss our tax returns,
       then.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7e48ef37d169a594ba7c2065d265b08a, type: 3}
   parentNode: {fileID: -5870150486887259375}
   childNode: {fileID: 0}
   isExternalFunc: 0
@@ -1242,8 +1242,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -136
-    y: 952
+    x: -213
+    y: -2629
     width: 190
     height: 135
   isDragging: 0
@@ -1251,7 +1251,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: ...
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: -7936984540607406871}
   childNode: {fileID: -4461232317518396314}
   isExternalFunc: 0
@@ -1272,8 +1272,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -425
-    y: 2929
+    x: -503
+    y: -652
     width: 190
     height: 135
   isDragging: 0
@@ -1283,7 +1283,7 @@ MonoBehaviour:
     text: Well, it's been shown that diverse teams are 33% more likely to have industry-leading
       profitability. Additionally, they are better equipped to identify and solve
       complex problems by drawing from a wider range of perspectives and experiences.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: 3742929673941894475}
   childNode: {fileID: -4418788299494175661}
   isExternalFunc: 0
@@ -1304,8 +1304,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 915
-    y: 1350
+    x: 838
+    y: -2231
     width: 190
     height: 135
   isDragging: 0
@@ -1313,7 +1313,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: Well, at least I've listened. Anything else?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: bc53023b07b702147918ffa22ace5e73, type: 3}
   parentNode: {fileID: 3314986147748706424}
   childNode: {fileID: -2919143879142358417}
   isExternalFunc: 0
@@ -1334,8 +1334,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 996
-    y: 4755
+    x: 919
+    y: 1174
     width: 190
     height: 135
   isDragging: 0
@@ -1343,7 +1343,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: Thank you, Sir, for the opportunity, as well as your time and effort.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 0f049f2f307669440a6ea8740695f10b, type: 3}
   parentNode: {fileID: -3526678967921270618}
   childNode: {fileID: -5207855610251944431}
   isExternalFunc: 0
@@ -1364,8 +1364,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 534
-    y: 2174
+    x: 457
+    y: -1407
     width: 190
     height: 135
   isDragging: 0
@@ -1374,7 +1374,7 @@ MonoBehaviour:
     characterName: Denise
     text: "Come to think of it, you\u2019ve worked here a long time, surely you must
       have had similar experiences?"
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: 6650914850669958572}
   childNode: {fileID: -4735157401460204490}
   isExternalFunc: 0
@@ -1395,8 +1395,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 791
-    y: 3073
+    x: 714
+    y: -508
     width: 190
     height: 135
   isDragging: 0
@@ -1407,7 +1407,7 @@ MonoBehaviour:
       and then compare results with other locations. I believe we will gather data
       which will properly illustrate just how much of a positive influence these
       methods can have on company morale-'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: -5363704783148776672}
   childNode: {fileID: 5995818485129037245}
   isExternalFunc: 0
@@ -1428,8 +1428,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 216
-    y: 827
+    x: 139
+    y: -2754
     width: 190
     height: 135
   isDragging: 0
@@ -1439,7 +1439,7 @@ MonoBehaviour:
     text: "What I am trying to do with the reworking of the hiring policies is essentially
       based in community. It\u2019s one of the pillars of the company, isn\u2019t
       it?"
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: 1960018291676130480}
   childNode: {fileID: 1551436819203546796}
   isExternalFunc: 0
@@ -1460,8 +1460,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 313
-    y: 396
+    x: 236
+    y: -3185
     width: 190
     height: 135
   isDragging: 0
@@ -1469,7 +1469,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: (hesitantly) Continue...
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: 1330270309171773391}
   childNode: {fileID: 1960018291676130480}
   isExternalFunc: 0
@@ -1490,8 +1490,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -381
-    y: -1279
+    x: -458
+    y: -4860
     width: 190
     height: 135
   isDragging: 0
@@ -1500,7 +1500,7 @@ MonoBehaviour:
     characterName: Richard
     text: I knew it. You lot have nothing but dust in your brains. You better get
       back to work before I fill out a certain form in my office!
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7e48ef37d169a594ba7c2065d265b08a, type: 3}
   parentNode: {fileID: 2878371972909315713}
   childNode: {fileID: -4226115685730665517}
   isExternalFunc: 0
@@ -1521,8 +1521,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -133
-    y: 1354
+    x: -210
+    y: -2227
     width: 190
     height: 135
   isDragging: 0
@@ -1531,7 +1531,7 @@ MonoBehaviour:
     characterName: Richard
     text: 'And you want me to feel guilty for something that happened a hundred-or-so
       years ago? You lot with your fancy words: Colonialism, Diversity, Woke-ness.'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7e48ef37d169a594ba7c2065d265b08a, type: 3}
   parentNode: {fileID: 288917677632214823}
   childNode: {fileID: 4939159839562939398}
   isExternalFunc: 0
@@ -1552,8 +1552,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 934
-    y: 828
+    x: 857
+    y: -2753
     width: 190
     height: 135
   isDragging: 0
@@ -1563,7 +1563,7 @@ MonoBehaviour:
     text: Denise, I don't want to hear facts that - quite frankly - you could have
       also just pulled out of your sleeve. Besides, we have all the success we need.
       And that without any core changes to our system.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: -2217909374563000966}
   childNode: {fileID: -5753270644435545427}
   isExternalFunc: 0
@@ -1584,8 +1584,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 726
-    y: 2436
+    x: 649
+    y: -1145
     width: 190
     height: 135
   isDragging: 0
@@ -1596,7 +1596,7 @@ MonoBehaviour:
       him how delicious it was. He said: \u201CIt\u2019s all right, guys, I know
       it\u2019s horrible, but I made it myself and that\u2019s what I\u2019m proud
       of\u201D..."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6359047cff43f384496d5f508c9b5ebe, type: 3}
   parentNode: {fileID: -5573729771180131862}
   childNode: {fileID: 8796662908136995827}
   isExternalFunc: 0
@@ -1746,8 +1746,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -326
-    y: 1355
+    x: -403
+    y: -2226
     width: 190
     height: 135
   isDragging: 0
@@ -1756,7 +1756,7 @@ MonoBehaviour:
     characterName: Denise
     text: 'Because "our" countries have exploited theirs, in most cases! You *have*
       heard of colonialism, right? Anyway - '
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 50716366e2686c74da2d0f7bb75f77a1, type: 3}
   parentNode: {fileID: 366354930742098605}
   childNode: {fileID: -478396998197156573}
   isExternalFunc: 0
@@ -1777,8 +1777,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -133
-    y: 1216
+    x: -210
+    y: -2365
     width: 190
     height: 135
   isDragging: 0
@@ -1788,7 +1788,7 @@ MonoBehaviour:
     text: That may be one thing, but I'll be damned if I let any of these strangers
       into *my* company, pay them with *my* money, and let them have a taste of *my*
       success. They come to our country -
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7e48ef37d169a594ba7c2065d265b08a, type: 3}
   parentNode: {fileID: -4461232317518396314}
   childNode: {fileID: 288917677632214823}
   isExternalFunc: 0
@@ -1809,8 +1809,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -524
-    y: 261
+    x: -601
+    y: -3320
     width: 190
     height: 135
   isDragging: 0
@@ -1818,7 +1818,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: Shut it. Off. To. Work.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7e48ef37d169a594ba7c2065d265b08a, type: 3}
   parentNode: {fileID: 2561423790462316549}
   childNode: {fileID: 0}
   isExternalFunc: 0
@@ -1839,8 +1839,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 111
-    y: 3229
+    x: 34
+    y: -351
     width: 190
     height: 135
   isDragging: 0
@@ -1850,7 +1850,7 @@ MonoBehaviour:
     text: Child, this company is not based in trust, but rock-hard work. Decades
       of painstaking labor, my own blood sweat and tears, and you have the audacity
       to ask me to just trust you with it's future?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7e48ef37d169a594ba7c2065d265b08a, type: 3}
   parentNode: {fileID: 5653368952392243122}
   childNode: {fileID: -5870150486887259375}
   isExternalFunc: 0
@@ -1871,8 +1871,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 992
-    y: 4089
+    x: 915
+    y: 508
     width: 190
     height: 135
   isDragging: 0
@@ -1882,7 +1882,7 @@ MonoBehaviour:
     text: "If that is so, I\u2019d pick Blind resume screening. It will be sure to
       reduce unconscious biases and ensure candidates are evaluated based solely
       on their qualifications and experience."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: a5a85c91b81622e44831a482958217a8, type: 3}
   parentNode: {fileID: 4206441627791537195}
   childNode: {fileID: 8774177747095206193}
   isExternalFunc: 0
@@ -1903,8 +1903,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -108
-    y: -1651
+    x: -185
+    y: -5232
     width: 190
     height: 135
   isDragging: 0
@@ -1913,7 +1913,7 @@ MonoBehaviour:
     characterName: Denise
     text: "Sir, would it be possible to arrange a meeting? I\u2019d like to talk
       about our conversation the other day."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 0f049f2f307669440a6ea8740695f10b, type: 3}
   parentNode: {fileID: 0}
   childNode: {fileID: 5812669742237772305}
   isExternalFunc: 0
@@ -1934,8 +1934,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -430
-    y: 3106
+    x: -507
+    y: -475
     width: 190
     height: 135
   isDragging: 0
@@ -1945,7 +1945,7 @@ MonoBehaviour:
     text: Sir, if I may, I might just have to ask your trust on this. There are *many*
       benefits to having a diverse workforce, and in time I'm sure you'll see what
       I mean.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: d2bb210ba236b9d4a9ca005a2c63ad25, type: 3}
   parentNode: {fileID: 3742929673941894475}
   childNode: {fileID: 5653368952392243122}
   isExternalFunc: 0
@@ -1966,8 +1966,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 125
-    y: 399
+    x: 48
+    y: -3182
     width: 190
     height: 135
   isDragging: 0
@@ -1975,7 +1975,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: "What I failed to express last time is: That\u2019s a common goal of ours. "
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: a5a85c91b81622e44831a482958217a8, type: 3}
   parentNode: {fileID: 2691565461215360092}
   childNode: {fileID: -1031027446342913546}
   isExternalFunc: 0
@@ -1996,8 +1996,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -13
-    y: 2602
+    x: -90
+    y: -979
     width: 190
     height: 135
   isDragging: 0
@@ -2007,7 +2007,7 @@ MonoBehaviour:
     text: Certainly! It's a matter close to my heart and I hope I was able to illustrate
       just how much of a positive influence this could have on the trajectory of
       our company.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: a5a85c91b81622e44831a482958217a8, type: 3}
   parentNode: {fileID: 7493892661241743404}
   childNode: {fileID: -8652756590641235560}
   isExternalFunc: 0
@@ -2028,8 +2028,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 418
-    y: 829
+    x: 341
+    y: -2752
     width: 190
     height: 135
   isDragging: 0
@@ -2037,7 +2037,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: Correct.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: -1067390287087471245}
   childNode: {fileID: 4662388413182116170}
   isExternalFunc: 0
@@ -2058,8 +2058,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -528
-    y: -126
+    x: -605
+    y: -3707
     width: 190
     height: 135
   isDragging: 0
@@ -2068,7 +2068,7 @@ MonoBehaviour:
     characterName: Richard
     text: Your opinion does matter. But only when it is a) relevant and b) has to
       do with your actual work
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: bc53023b07b702147918ffa22ace5e73, type: 3}
   parentNode: {fileID: -5002905652717709091}
   childNode: {fileID: 7001656705396450707}
   isExternalFunc: 0
@@ -2089,8 +2089,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 541
-    y: 3475
+    x: 464
+    y: -106
     width: 190
     height: 135
   isDragging: 0
@@ -2099,7 +2099,7 @@ MonoBehaviour:
     characterName: Richard
     text: Why should I care about a bunch of pseudo-facts you could just as well
       have shaken out of your sleeve?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: 2337433156796708399}
   childNode: {fileID: -8850786237000610918}
   isExternalFunc: 0
@@ -2120,8 +2120,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -443
-    y: -505
+    x: -520
+    y: -4086
     width: 190
     height: 135
   isDragging: 0
@@ -2129,7 +2129,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: But - I haven't even gotten a chance to elaborate!
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 0f049f2f307669440a6ea8740695f10b, type: 3}
   parentNode: {fileID: 5241138615009816810}
   childNode: {fileID: -3023888585734665184}
   isExternalFunc: 0
@@ -2150,8 +2150,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 223
-    y: 578
+    x: 146
+    y: -3003
     width: 190
     height: 155
   isDragging: 0
@@ -2181,8 +2181,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 577
-    y: -1270
+    x: 500
+    y: -4851
     width: 190
     height: 135
   isDragging: 0
@@ -2190,8 +2190,8 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: If you have to... I'd still prefer you focus on your *actual* job.
-    characterSprite: {fileID: 0}
-  parentNode: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
+  parentNode: {fileID: 5174613568653511110}
   childNode: {fileID: 0}
   isExternalFunc: 0
   externalFunctionName: 
@@ -2211,8 +2211,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 355
-    y: 3474
+    x: 278
+    y: -107
     width: 190
     height: 135
   isDragging: 0
@@ -2220,7 +2220,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: Uhm, meaning?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 50716366e2686c74da2d0f7bb75f77a1, type: 3}
   parentNode: {fileID: -6772007180293460869}
   childNode: {fileID: 1853267883911333019}
   isExternalFunc: 0
@@ -2241,8 +2241,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -710
-    y: 259
+    x: -787
+    y: -3322
     width: 190
     height: 135
   isDragging: 0
@@ -2250,7 +2250,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: But -
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 50716366e2686c74da2d0f7bb75f77a1, type: 3}
   parentNode: {fileID: 8387687140811355483}
   childNode: {fileID: 632584093682073324}
   isExternalFunc: 0
@@ -2271,8 +2271,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 19
-    y: 208
+    x: -58
+    y: -3373
     width: 190
     height: 135
   isDragging: 0
@@ -2282,7 +2282,7 @@ MonoBehaviour:
     text: "Well, I believe there is value in agreeing to disagree on some standpoints,
       but that doesn\u2019t mean there can\u2019t be any mutual respect, still. I
       see you\u2019re trying to do what is best for the company, and I respect that."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: -7208362445378974521}
   childNode: {fileID: 1330270309171773391}
   isExternalFunc: 0
@@ -2303,8 +2303,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -575
-    y: -1280
+    x: -652
+    y: -4861
     width: 190
     height: 135
   isDragging: 0
@@ -2313,7 +2313,7 @@ MonoBehaviour:
     characterName: Denise
     text: Actually, Sir, I wanted make sure you know that the way you talked to me
       the other day was very rude, if not downright disrespectful.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: 3226185806064464465}
   childNode: {fileID: -952000302259017220}
   isExternalFunc: 0
@@ -2334,8 +2334,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -249
-    y: -319
+    x: -326
+    y: -3900
     width: 190
     height: 135
   isDragging: 0
@@ -2363,8 +2363,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -104
-    y: -1464
+    x: -181
+    y: -5045
     width: 190
     height: 155
   isDragging: 0
@@ -2394,8 +2394,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 724
-    y: 1349
+    x: 647
+    y: -2232
     width: 190
     height: 135
   isDragging: 0
@@ -2403,7 +2403,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: Then I don't know how I could convince you.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 0f049f2f307669440a6ea8740695f10b, type: 3}
   parentNode: {fileID: 3984586918284475419}
   childNode: {fileID: -1430903969951835981}
   isExternalFunc: 0
@@ -2424,8 +2424,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1184
-    y: 4499
+    x: 1107
+    y: 918
     width: 190
     height: 135
   isDragging: 0
@@ -2433,7 +2433,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: "I\u2019m giving you a chance here, don\u2019t screw it up."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: -3113525117287148519}
   childNode: {fileID: -3526678967921270618}
   isExternalFunc: 0
@@ -2454,8 +2454,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 176
-    y: 2796
+    x: 99
+    y: -785
     width: 190
     height: 135
   isDragging: 0
@@ -2483,8 +2483,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -19
-    y: 2339
+    x: -96
+    y: -1242
     width: 190
     height: 135
   isDragging: 0
@@ -2494,7 +2494,7 @@ MonoBehaviour:
     text: Lastly, I thought we could have Diversity training for interviewers, so
       we can make sure that all applicants are being treated fairly and our interviewers
       are equipped to recognize and mitigate biases during the hiring process.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: a5a85c91b81622e44831a482958217a8, type: 3}
   parentNode: {fileID: 5114837658476807955}
   childNode: {fileID: -4836451106144741976}
   isExternalFunc: 0
@@ -2515,8 +2515,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 418
-    y: 1097
+    x: 342
+    y: -2484
     width: 190
     height: 135
   isDragging: 0
@@ -2524,7 +2524,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: I like to see this ambition, kid.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 59aba5d5669daac42a56790f705592be, type: 3}
   parentNode: {fileID: 6904409126673053266}
   childNode: {fileID: 7872041971240429887}
   isExternalFunc: 0
@@ -2545,8 +2545,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 722
-    y: 1219
+    x: 645
+    y: -2362
     width: 190
     height: 135
   isDragging: 0
@@ -2554,7 +2554,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: ...
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: -8180337596468373589}
   childNode: {fileID: 3314986147748706424}
   isExternalFunc: 0
@@ -2575,8 +2575,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 991
-    y: 3959
+    x: 914
+    y: 378
     width: 190
     height: 135
   isDragging: 0
@@ -2584,7 +2584,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: Oh, all right, uhm...
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: -4162624960987139898}
   childNode: {fileID: 818579334841166339}
   isExternalFunc: 0
@@ -2605,8 +2605,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 922
-    y: 1483
+    x: 845
+    y: -2098
     width: 190
     height: 135
   isDragging: 0
@@ -2614,7 +2614,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: Alright, then. Please hand in that paperwork today.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: -2919143879142358417}
   childNode: {fileID: 0}
   isExternalFunc: 0
@@ -2635,8 +2635,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 218
-    y: 962
+    x: 141
+    y: -2619
     width: 190
     height: 135
   isDragging: 0
@@ -2644,7 +2644,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: "Therefore, it must be a common value, correct me if I\u2019m wrong."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 0f049f2f307669440a6ea8740695f10b, type: 3}
   parentNode: {fileID: 1551436819203546796}
   childNode: {fileID: -8544488448242269934}
   isExternalFunc: 0
@@ -2665,8 +2665,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -443
-    y: -641
+    x: -520
+    y: -4222
     width: 190
     height: 135
   isDragging: 0
@@ -2675,7 +2675,7 @@ MonoBehaviour:
     characterName: Denise
     text: Well, now that that's settled, I'd like to inform you again as to why Diversity
       matters.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: 5057045067565370435}
   childNode: {fileID: 5241138615009816810}
   isExternalFunc: 0
@@ -2696,8 +2696,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 104
-    y: -1145
+    x: 27
+    y: -4726
     width: 190
     height: 135
   isDragging: 0
@@ -2706,7 +2706,7 @@ MonoBehaviour:
     characterName: Richard
     text: "Oh\u2026 Uhm\u2026 Well, if that\u2019s the case. Sure. As it happens,
       I have some free time right now. What can I do for you?"
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6359047cff43f384496d5f508c9b5ebe, type: 3}
   parentNode: {fileID: -7613755899083209838}
   childNode: {fileID: 5057045067565370435}
   isExternalFunc: 0
@@ -2727,8 +2727,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -132
-    y: 1484
+    x: -209
+    y: -2097
     width: 190
     height: 135
   isDragging: 0
@@ -2737,7 +2737,7 @@ MonoBehaviour:
     characterName: Richard
     text: Maybe you ought to focus on family values, that'll teach you something!
       Nothing but dust in your heads...
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: -478396998197156573}
   childNode: {fileID: -8742230636632778153}
   isExternalFunc: 0
@@ -2758,8 +2758,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -82
-    y: -809
+    x: -159
+    y: -4390
     width: 190
     height: 135
   isDragging: 0
@@ -2787,8 +2787,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -20
-    y: 2209
+    x: -97
+    y: -1372
     width: 190
     height: 135
   isDragging: 0
@@ -2798,7 +2798,7 @@ MonoBehaviour:
     text: Another idea I had was to implement Diverse candidate sourcing. This can
       help us not only seek out people from underrepresented groups, but also help
       us expand our pool of qualified candidates.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: 7425411354464690727}
   childNode: {fileID: 3746161379122817951}
   isExternalFunc: 0
@@ -2819,8 +2819,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 379
-    y: -1268
+    x: 302
+    y: -4849
     width: 190
     height: 135
   isDragging: 0
@@ -2830,9 +2830,9 @@ MonoBehaviour:
     text: Actually, I wanted to let you know that I'm sorry for my wording last time,
       and I guess you're right. It would be too much to try and change the hiring
       policies. I'll try to think of something else.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 0f049f2f307669440a6ea8740695f10b, type: 3}
   parentNode: {fileID: 3226185806064464465}
-  childNode: {fileID: 0}
+  childNode: {fileID: 1984293949932592481}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &5241138615009816810
@@ -2851,8 +2851,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -249
-    y: -639
+    x: -326
+    y: -4220
     width: 190
     height: 135
   isDragging: 0
@@ -2862,7 +2862,7 @@ MonoBehaviour:
     text: I appreciate the apology, miss, but I'm afraid I don't have time for this.
       Agree to disagree, I guess. At least you are no longer in queue for a 'professional
       release'..
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: 4694642595565751371}
   childNode: {fileID: 1856659331564828725}
   isExternalFunc: 0
@@ -2883,8 +2883,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 10
-    y: -129
+    x: -67
+    y: -3710
     width: 190
     height: 135
   isDragging: 0
@@ -2892,7 +2892,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: ...
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: -5993775151413518839}
   childNode: {fileID: -7208362445378974521}
   isExternalFunc: 0
@@ -2913,8 +2913,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1424
-    y: 3957
+    x: 1347
+    y: 376
     width: 190
     height: 135
   isDragging: 0
@@ -2922,7 +2922,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: Oh, all right, uhm...
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: -4162624960987139898}
   childNode: {fileID: 7807952620024460686}
   isExternalFunc: 0
@@ -2943,8 +2943,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -79
-    y: 3229
+    x: -156
+    y: -352
     width: 190
     height: 135
   isDragging: 0
@@ -2953,7 +2953,7 @@ MonoBehaviour:
     characterName: Denise
     text: If you could just have some patience with this, I'm sure you won't regret
       it.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: 1249812496564792853}
   childNode: {fileID: 716912810642425261}
   isExternalFunc: 0
@@ -2974,8 +2974,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 104
-    y: -1651
+    x: 27
+    y: -5232
     width: 190
     height: 135
   isDragging: 0
@@ -2983,7 +2983,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: "Oh, Denise. I hope it won\u2019t be any more woke prattle."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: 956593369420260635}
   childNode: {fileID: 3226185806064464465}
   isExternalFunc: 0
@@ -3004,8 +3004,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 981
-    y: 3073
+    x: 904
+    y: -508
     width: 190
     height: 135
   isDragging: 0
@@ -3015,7 +3015,7 @@ MonoBehaviour:
     text: Ok, ok, I agree. Although, given that we do not have any data yet, I am
       willing to look into organizing and funding one of the three options you just
       named. Then we will see how much positive influence it has on our work environment.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 6359047cff43f384496d5f508c9b5ebe, type: 3}
   parentNode: {fileID: -1135154778390157922}
   childNode: {fileID: 6770370274694923474}
   isExternalFunc: 0
@@ -3036,8 +3036,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 359
-    y: 3735
+    x: 282
+    y: 154
     width: 190
     height: 135
   isDragging: 0
@@ -3045,7 +3045,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: But, Sir, these are all-
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: -8850786237000610918}
   childNode: {fileID: -5009379224384787452}
   isExternalFunc: 0
@@ -3066,8 +3066,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 350
-    y: 3084
+    x: 273
+    y: -497
     width: 190
     height: 135
   isDragging: 0
@@ -3077,7 +3077,7 @@ MonoBehaviour:
     text: Well, it's been shown that diverse teams are 33% more likely to have industry-leading
       profitability. Additionally, they are better equipped to identify and solve
       complex problems by drawing from a wider range of perspectives and experiences.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: -5363704783148776672}
   childNode: {fileID: -4418788299494175661}
   isExternalFunc: 0
@@ -3098,8 +3098,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 532
-    y: 2044
+    x: 455
+    y: -1537
     width: 190
     height: 135
   isDragging: 0
@@ -3107,7 +3107,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: Thank you, Sir.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 0f049f2f307669440a6ea8740695f10b, type: 3}
   parentNode: {fileID: 7872041971240429887}
   childNode: {fileID: -1383642861866767528}
   isExternalFunc: 0
@@ -3128,8 +3128,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 986
-    y: 3203
+    x: 909
+    y: -378
     width: 190
     height: 135
   isDragging: 0
@@ -3137,7 +3137,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: Pick one.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: 5995818485129037245}
   childNode: {fileID: -4162624960987139898}
   isExternalFunc: 0
@@ -3158,8 +3158,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 219
-    y: 1097
+    x: 142
+    y: -2484
     width: 190
     height: 135
   isDragging: 0
@@ -3169,7 +3169,7 @@ MonoBehaviour:
     text: "And I want to do my best to support and reinforce that feeling of community.
       I believe our company has the potential to be an amazing workspace, even better
       than it is. I know it\u2019s the reason why I came here-"
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: a5a85c91b81622e44831a482958217a8, type: 3}
   parentNode: {fileID: -8544488448242269934}
   childNode: {fileID: 3941022528577203726}
   isExternalFunc: 0
@@ -3190,8 +3190,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 547
-    y: 3962
+    x: 470
+    y: 381
     width: 190
     height: 135
   isDragging: 0
@@ -3199,7 +3199,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: Oh, all right, uhm...
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 665d3cc39fe5286438f8690a7253eba8, type: 3}
   parentNode: {fileID: -4162624960987139898}
   childNode: {fileID: -7265431024930392339}
   isExternalFunc: 0
@@ -3220,8 +3220,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -527
-    y: 4
+    x: -604
+    y: -3577
     width: 190
     height: 135
   isDragging: 0
@@ -3230,7 +3230,7 @@ MonoBehaviour:
     characterName: Richard
     text: '- which I may remind you, is *filling out the paperwork* that''s been
       rotting on your desk. '
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7e48ef37d169a594ba7c2065d265b08a, type: 3}
   parentNode: {fileID: 1815340908440134701}
   childNode: {fileID: -4806881542693141923}
   isExternalFunc: 0
@@ -3251,8 +3251,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -340
-    y: 823
+    x: -417
+    y: -2758
     width: 190
     height: 135
   isDragging: 0
@@ -3262,7 +3262,7 @@ MonoBehaviour:
     text: You see, Diversity matters because our society is constituted of a much
       wider range of people than we - as the dominant demographic - may realize.
       And it's unfair to withhold space and resources, and even capitalize on that!
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: a5a85c91b81622e44831a482958217a8, type: 3}
   parentNode: {fileID: 1960018291676130480}
   childNode: {fileID: -7936984540607406871}
   isExternalFunc: 0
@@ -3283,8 +3283,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -567
-    y: -1006
+    x: -644
+    y: -4587
     width: 190
     height: 135
   isDragging: 0
@@ -3292,7 +3292,7 @@ MonoBehaviour:
   sentence:
     characterName: Denise
     text: Oh just you wait, I'll take this up with HR!
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 50716366e2686c74da2d0f7bb75f77a1, type: 3}
   parentNode: {fileID: -4226115685730665517}
   childNode: {fileID: 0}
   isExternalFunc: 0
@@ -3313,8 +3313,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -78
-    y: 3101
+    x: -155
+    y: -480
     width: 190
     height: 135
   isDragging: 0
@@ -3324,7 +3324,7 @@ MonoBehaviour:
     text: Sir, if I may, I might just have to ask your trust on this. There are *many*
       benefits to having a diverse workforce, and in time I'm sure you'll see what
       I mean.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: d2bb210ba236b9d4a9ca005a2c63ad25, type: 3}
   parentNode: {fileID: -5363704783148776672}
   childNode: {fileID: 5653368952392243122}
   isExternalFunc: 0
@@ -3345,8 +3345,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -21
-    y: 2080
+    x: -98
+    y: -1501
     width: 190
     height: 135
   isDragging: 0
@@ -3357,7 +3357,7 @@ MonoBehaviour:
       screening could reduce unconscious bias among interviewers; we could make sure
       we get the best people for the job, regardless of external or non-relevant
       factors.'
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: a5a85c91b81622e44831a482958217a8, type: 3}
   parentNode: {fileID: 7872041971240429887}
   childNode: {fileID: 5114837658476807955}
   isExternalFunc: 0
@@ -3378,8 +3378,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 172
-    y: 2472
+    x: 95
+    y: -1108
     width: 190
     height: 135
   isDragging: 0
@@ -3387,7 +3387,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: Well, you've certainly put a lot of thought into this...
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: -4836451106144741976}
   childNode: {fileID: 1387652594491586599}
   isExternalFunc: 0
@@ -3408,8 +3408,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -133
-    y: 1745
+    x: -210
+    y: -1836
     width: 190
     height: 135
   isDragging: 0
@@ -3417,7 +3417,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: Ergo, never.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: bc53023b07b702147918ffa22ace5e73, type: 3}
   parentNode: {fileID: -7300853390227251475}
   childNode: {fileID: 0}
   isExternalFunc: 0
@@ -3438,8 +3438,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1425
-    y: 4087
+    x: 1348
+    y: 506
     width: 190
     height: 135
   isDragging: 0
@@ -3449,7 +3449,7 @@ MonoBehaviour:
     text: "If that is so, I\u2019d pick Diverse Candidate Sourcing. It will be sure
       to expand our \u2018pot\u2019 of employees, and will have the most tangible
       effect, even in the short term."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: a5a85c91b81622e44831a482958217a8, type: 3}
   parentNode: {fileID: 5403095616998344576}
   childNode: {fileID: -8463601555022808080}
   isExternalFunc: 0
@@ -3470,8 +3470,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 418
-    y: 1880
+    x: 341
+    y: -1701
     width: 190
     height: 135
   isDragging: 0
@@ -3499,8 +3499,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -525
-    y: 132
+    x: -602
+    y: -3449
     width: 190
     height: 135
   isDragging: 0
@@ -3508,7 +3508,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: And EOD means EOD, END-OF-DAY.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: e020abdce4a9c064e9dad3cacd01c0ed, type: 3}
   parentNode: {fileID: -4806881542693141923}
   childNode: {fileID: 2561423790462316549}
   isExternalFunc: 0
@@ -3529,8 +3529,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 939
-    y: 958
+    x: 862
+    y: -2623
     width: 190
     height: 135
   isDragging: 0
@@ -3539,7 +3539,7 @@ MonoBehaviour:
     characterName: Richard
     text: That's an awfully targeted question, young lady. What am I, on trial? For
       preferring the status quo?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 7e48ef37d169a594ba7c2065d265b08a, type: 3}
   parentNode: {fileID: -5753270644435545427}
   childNode: {fileID: -8180337596468373589}
   isExternalFunc: 0
@@ -3560,8 +3560,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 537
-    y: 2692
+    x: 460
+    y: -889
     width: 190
     height: 135
   isDragging: 0
@@ -3572,7 +3572,7 @@ MonoBehaviour:
       be great to experience growth like that on a wider scale? I see here an opportunity
       to expand our community, as well as influence. That\u2019s the point I wanted
       to share with you."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: a5a85c91b81622e44831a482958217a8, type: 3}
   parentNode: {fileID: 8796662908136995827}
   childNode: {fileID: -3664997245379440899}
   isExternalFunc: 0
@@ -3593,8 +3593,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1187
-    y: 4091
+    x: 1110
+    y: 510
     width: 190
     height: 135
   isDragging: 0
@@ -3602,7 +3602,7 @@ MonoBehaviour:
   sentence:
     characterName: Richard
     text: Blind resume screening it is.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 59aba5d5669daac42a56790f705592be, type: 3}
   parentNode: {fileID: 818579334841166339}
   childNode: {fileID: -3113525117287148519}
   isExternalFunc: 0
@@ -3623,8 +3623,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 725
-    y: 2564
+    x: 648
+    y: -1017
     width: 190
     height: 135
   isDragging: 0
@@ -3633,7 +3633,7 @@ MonoBehaviour:
     characterName: Richard
     text: 'Haha, it became an inside joke after that. It ended up helping us grow
       a little as a team, but look at me yapping about old times... You were saying? '
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: bc53023b07b702147918ffa22ace5e73, type: 3}
   parentNode: {fileID: -223704556911201936}
   childNode: {fileID: 8619464959015644445}
   isExternalFunc: 0
