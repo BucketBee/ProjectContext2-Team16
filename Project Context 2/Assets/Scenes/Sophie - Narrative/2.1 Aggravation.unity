@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18272893, g: 0.22577165, b: 0.2915936, a: 1}
+  m_IndirectSpecularColor: {r: 0.18272932, g: 0.2257722, b: 0.29159468, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -130,6 +130,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3854219184016841250, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22.210217
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854219184016841250, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.161317
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854219184016841250, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -23.948788
+      objectReference: {fileID: 0}
     - target: {fileID: 8239891775244047195, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -181,6 +193,6 @@ PrefabInstance:
     - target: {fileID: 8239891776458850066, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
       propertyPath: dialogGraph
       value: 
-      objectReference: {fileID: 11400000, guid: ddced8e29ebcfc24dba2362af16ab848, type: 2}
+      objectReference: {fileID: 11400000, guid: 49670c13e9751d44d938d548475d8720, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8860076413894628070
+--- !u!114 &-9212263477435827240
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16,21 +16,23 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2154.8
-    y: 133.8
+    x: 913
+    y: -2078
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: DENISE
-    text: "Eh, for better or worse with that old crone\u2026 "
+    characterName: Denise
+    text: Well, I was wondering if we could discuss our current hiring policies.
+      As head of the HR department, I feel it is my duty to make sure we offer fair
+      chances to everyone.
     characterSprite: {fileID: 0}
-  parentNode: {fileID: 225231309472106355}
-  childNode: {fileID: 8177437512062783193}
+  parentNode: {fileID: 1808274663175655336}
+  childNode: {fileID: 7429480242736194572}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &-8671911551928607115
+--- !u!114 &-9096943884512105977
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -46,21 +48,22 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -3572.8
-    y: 118.8
+    x: 896
+    y: -623
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: KATE
-    text: 'So, tell me; word for word if you can. What happened? '
+    characterName: Richard
+    text: "Fairness doesn\u2019t always equal competence. If you were my age you\u2019d
+      know that."
     characterSprite: {fileID: 0}
-  parentNode: {fileID: -3821243570549636772}
-  childNode: {fileID: -2319343321676402038}
+  parentNode: {fileID: 3292353875994706960}
+  childNode: {fileID: -1977553561016176997}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &-8670307350128252414
+--- !u!114 &-7361221277428180128
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -76,21 +79,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -4826.8
-    y: 109.8
+    x: 341
+    y: 365
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: KATE
-    text: 'Oh no, what happened? '
+    characterName: Richard
+    text: What is that supposed to mean?
     characterSprite: {fileID: 0}
-  parentNode: {fileID: -4306464008547495554}
-  childNode: {fileID: 5325548272629586426}
+  parentNode: {fileID: 7981442995005537862}
+  childNode: {fileID: -5492050026125824882}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &-8466053607860516257
+--- !u!114 &-7156764173680623344
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,22 +109,23 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1188.8
-    y: 140.8
+    x: 1351
+    y: -446
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: KATE
-    text: "In your own view you didn\u2019t. But if you wanna reach an understanding,
-      you gotta have some empathy, even when you don\u2019t want to.  "
+    characterName: Richard
+    text: And you think I need - better yet - *want* your help? Thank you but I can
+      very well run this company myself, without the help of out-of-place blabbermouths
+      like you.
     characterSprite: {fileID: 0}
-  parentNode: {fileID: 413957411481590818}
-  childNode: {fileID: 3904885246750174692}
+  parentNode: {fileID: 5051743074147720577}
+  childNode: {fileID: 5443447125818313386}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &-7727309348239789396
+--- !u!114 &-6867996434767134883
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,24 +141,22 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -812.80005
-    y: 142.80002
+    x: 1153
+    y: -446
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: KATE
-    text: "And now imagine how good it\u2019s gonna feel when you manage to achieve
-      something for that. Just hold out a little longer. You wanna change someone\u2019s
-      perspective, you first gotta make sure they understand it\u2019s not me or
-      you - it\u2019s us.  "
+    characterName: Denise
+    text: Ugh! *Why* do you have to be so rigid about this?! I'm trying to help you,
+      help this company!
     characterSprite: {fileID: 0}
-  parentNode: {fileID: 3904885246750174692}
-  childNode: {fileID: 6592003869068024832}
+  parentNode: {fileID: -1977553561016176997}
+  childNode: {fileID: -7156764173680623344}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &-7198170915878492618
+--- !u!114 &-6487373749855534458
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -170,21 +172,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2950.8
-    y: 121.8
+    x: 540
+    y: 227
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: DENISE
-    text: 'Just lay it on me, girl. '
+    characterName: Denise
+    text: ...
     characterSprite: {fileID: 0}
-  parentNode: {fileID: -3429308228663040681}
-  childNode: {fileID: 7605506054467908532}
+  parentNode: {fileID: 1515886512679178362}
+  childNode: {fileID: 7981442995005537862}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &-6367388944909312042
+--- !u!114 &-6475837450538395200
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -200,23 +202,22 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -4202.8
-    y: 118.8
+    x: 812
+    y: -2266
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: DENISE
-    text: "Yeah, but\u2026 I don\u2019t want it to be over. The talk we had the other
-      day really meant something to me, and I wanna share that with other people,
-      too! Don\u2019t you have any tips? "
+    characterName: Richard
+    text: "Hello Denise. Sure, as long as it\u2019s a minute. I have another appointment
+      at two. What is it you need?"
     characterSprite: {fileID: 0}
-  parentNode: {fileID: -3687117064428957777}
-  childNode: {fileID: 2742870867344760057}
+  parentNode: {fileID: 4621141222146438998}
+  childNode: {fileID: 1808274663175655336}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &-5891130585833224911
+--- !u!114 &-5807840254580912237
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -232,22 +233,22 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1767.8
-    y: 137.8
+    x: 1084
+    y: -1518
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: DENISE
-    text: "Sorry, it just had to get out. So, common values, got it. Where\u2019s
-      the part I\u2019m not gonna like? "
+    characterName: Denise
+    text: I was thinking about how Diverse candidate sourcing could help add Diversity
+      to our-
     characterSprite: {fileID: 0}
-  parentNode: {fileID: 8177437512062783193}
-  childNode: {fileID: -3288889635564438885}
+  parentNode: {fileID: -4860951103183662629}
+  childNode: {fileID: -2084847755213560792}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &-4306464008547495554
+--- !u!114 &-5492050026125824882
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -263,21 +264,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -5036.8
-    y: 109.8
+    x: 544
+    y: 367
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: DENISE
-    text: "Yeah\u2026 But it didn't go so well\u2026 "
+    characterName: Denise
+    text: I - uh...
     characterSprite: {fileID: 0}
-  parentNode: {fileID: 7214038976724560258}
-  childNode: {fileID: -8670307350128252414}
+  parentNode: {fileID: -7361221277428180128}
+  childNode: {fileID: -4430781101321377488}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &-3821243570549636772
+--- !u!114 &-5252984103113374774
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -293,21 +294,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -3789.8
-    y: 117.8
+    x: 1568
+    y: -787
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: DENISE
-    text: '*nods*'
+    characterName: Richard
+    text: Watch you mouth, kid, before you slip out of your job!
     characterSprite: {fileID: 0}
-  parentNode: {fileID: 2742870867344760057}
-  childNode: {fileID: -8671911551928607115}
+  parentNode: {fileID: -1459372989789483878}
+  childNode: {fileID: 0}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &-3687117064428957777
+--- !u!114 &-5242425779424864117
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -323,22 +324,22 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -4406.8
-    y: 114.8
+    x: 895
+    y: -1520
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: KATE
-    text: "Ahw, Denny, I\u2019m so sorry to hear that. Well, it\u2019s over now,
-      you can relax. "
+    characterName: Denise
+    text: I was thinking about how Diversity training for interviewers could help
+      add Diversity to our-
     characterSprite: {fileID: 0}
-  parentNode: {fileID: 5325548272629586426}
-  childNode: {fileID: -6367388944909312042}
+  parentNode: {fileID: -4860951103183662629}
+  childNode: {fileID: -2084847755213560792}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &-3429308228663040681
+--- !u!114 &-4979697484285773766
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -354,22 +355,52 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -3154.8
-    y: 120.8
+    x: 425
+    y: -289
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: KATE
-    text: "I see\u2026 That does sound rather heated\u2026 You might not like what
-      I have to say, though. "
+    characterName: Denise
+    text: Hey! Don't interrupt me!
     characterSprite: {fileID: 0}
-  parentNode: {fileID: -2319343321676402038}
-  childNode: {fileID: -7198170915878492618}
+  parentNode: {fileID: 6406522791612703219}
+  childNode: {fileID: 2776055842372499410}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &-3288889635564438885
+--- !u!114 &-4860951103183662629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 896
+    y: -1680
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Blind resume screening
+  - Diversity training for interviewers
+  - Diverse candidate sourcing
+  parentSentenceNode: {fileID: 5402902053365261240}
+  childSentenceNodes:
+  - {fileID: -565739319260423370}
+  - {fileID: -5242425779424864117}
+  - {fileID: -5807840254580912237}
+--- !u!114 &-4540093971418513987
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -385,21 +416,22 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1571.8
-    y: 136.8
+    x: 625
+    y: -794
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: KATE
-    text: 'If you really want this to work - You gotta apologise. '
+    characterName: Denise
+    text: "So we\u2019re just supposed to stay back while all the rest of society
+      embraces change? That\u2019s - That\u2019s absurd! And unfair."
     characterSprite: {fileID: 0}
-  parentNode: {fileID: -5891130585833224911}
-  childNode: {fileID: 413957411481590818}
+  parentNode: {fileID: 657901129984728411}
+  childNode: {fileID: 3258027592555402633}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &-2388498925317185742
+--- !u!114 &-4430781101321377488
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -415,21 +447,22 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -5455.8
-    y: 105.8
+    x: 341
+    y: 502
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: DENISE
-    text: '(to barista) A Virgin Bloody Mary and an apple juice, please. '
+    characterName: Richard
+    text: Denise, I believe it will be best to end this conversation here. Before
+      some people get rejected from their own working position.
     characterSprite: {fileID: 0}
-  parentNode: {fileID: 5269613444483859901}
-  childNode: {fileID: 7214038976724560258}
+  parentNode: {fileID: -5492050026125824882}
+  childNode: {fileID: 0}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &-2319343321676402038
+--- !u!114 &-3141164856292392286
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -445,21 +478,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -3359.8
-    y: 118.8
+    x: 1154
+    y: -788
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: DENISE
-    text: '*gives her best word-for-word account*'
+    characterName: Richard
+    text: What was that?!
     characterSprite: {fileID: 0}
-  parentNode: {fileID: -8671911551928607115}
-  childNode: {fileID: -3429308228663040681}
+  parentNode: {fileID: 657901129984728411}
+  childNode: {fileID: -1459372989789483878}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &-1714142446397875054
+--- !u!114 &-2084847755213560792
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -475,18 +508,139 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -27.800018
-    y: 149.8
+    x: 891
+    y: -1167
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: KATE
-    text: 'You got this. '
+    characterName: Richard
+    text: Diversity! Not you as well, I'm so sick of hearing about it...
     characterSprite: {fileID: 0}
-  parentNode: {fileID: 4192723925660126778}
-  childNode: {fileID: 6142396214251266253}
+  parentNode: {fileID: -5807840254580912237}
+  childNode: {fileID: 657901129984728411}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-1977553561016176997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 893
+    y: -461
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Why must you be so rigid?
+  - Times are changing...
+  parentSentenceNode: {fileID: -9096943884512105977}
+  childSentenceNodes:
+  - {fileID: -6867996434767134883}
+  - {fileID: 8649099083674884262}
+--- !u!114 &-1459372989789483878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1366
+    y: -789
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: I- uh.. Sorry, Sir. It must've slipped out.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -3141164856292392286}
+  childNode: {fileID: -5252984103113374774}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-565739319260423370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 705
+    y: -1519
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: I was thinking about how Blind Resume Screening could help add Diversity
+      to our-
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -4860951103183662629}
+  childNode: {fileID: -2084847755213560792}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-165251899607497753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 893
+    y: -139
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Richard
+    text: "I didn\u2019t sign up for a social justice scolding. I\u2019d advise you
+      to be aware of how you\u2019re talking to your superior!"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 8649099083674884262}
+  childNode: {fileID: 1515886512679178362}
   isExternalFunc: 0
   externalFunctionName: 
 --- !u!114 &11400000
@@ -499,43 +653,110 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
-  m_Name: 2.2 Inspiration
+  m_Name: 2.1 A_v2
   m_EditorClassIdentifier: 
   nodesList:
-  - {fileID: 2529143078160889321}
-  - {fileID: 5269613444483859901}
-  - {fileID: -2388498925317185742}
-  - {fileID: 7214038976724560258}
-  - {fileID: -4306464008547495554}
-  - {fileID: -8670307350128252414}
-  - {fileID: 5325548272629586426}
-  - {fileID: -3687117064428957777}
-  - {fileID: -6367388944909312042}
-  - {fileID: 2742870867344760057}
-  - {fileID: -3821243570549636772}
-  - {fileID: -8671911551928607115}
-  - {fileID: -2319343321676402038}
-  - {fileID: -3429308228663040681}
-  - {fileID: -7198170915878492618}
-  - {fileID: 7605506054467908532}
-  - {fileID: 2414205193343685338}
-  - {fileID: 225231309472106355}
-  - {fileID: -8860076413894628070}
-  - {fileID: 8177437512062783193}
-  - {fileID: -5891130585833224911}
-  - {fileID: -3288889635564438885}
-  - {fileID: 413957411481590818}
-  - {fileID: -8466053607860516257}
-  - {fileID: 3904885246750174692}
-  - {fileID: -7727309348239789396}
-  - {fileID: 6592003869068024832}
-  - {fileID: 7042280743854878335}
-  - {fileID: 4192723925660126778}
-  - {fileID: -1714142446397875054}
-  - {fileID: 6142396214251266253}
+  - {fileID: 4621141222146438998}
+  - {fileID: -6475837450538395200}
+  - {fileID: 1808274663175655336}
+  - {fileID: -9212263477435827240}
+  - {fileID: 7429480242736194572}
+  - {fileID: -4860951103183662629}
+  - {fileID: 5402902053365261240}
+  - {fileID: -565739319260423370}
+  - {fileID: -5242425779424864117}
+  - {fileID: -5807840254580912237}
+  - {fileID: -2084847755213560792}
+  - {fileID: 657901129984728411}
+  - {fileID: -4540093971418513987}
+  - {fileID: 3258027592555402633}
+  - {fileID: 3292353875994706960}
+  - {fileID: -9096943884512105977}
+  - {fileID: -3141164856292392286}
+  - {fileID: -1459372989789483878}
+  - {fileID: -5252984103113374774}
+  - {fileID: -1977553561016176997}
+  - {fileID: 3703268606403194399}
+  - {fileID: 5051743074147720577}
+  - {fileID: -7156764173680623344}
+  - {fileID: 5443447125818313386}
+  - {fileID: -6867996434767134883}
+  - {fileID: 3676081919466053658}
+  - {fileID: 6406522791612703219}
+  - {fileID: 8649099083674884262}
+  - {fileID: -165251899607497753}
+  - {fileID: -4979697484285773766}
+  - {fileID: 2776055842372499410}
+  - {fileID: 1515886512679178362}
+  - {fileID: 5214025044502103946}
+  - {fileID: -6487373749855534458}
+  - {fileID: 7981442995005537862}
+  - {fileID: -7361221277428180128}
+  - {fileID: -5492050026125824882}
+  - {fileID: -4430781101321377488}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
---- !u!114 &225231309472106355
+--- !u!114 &657901129984728411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 888
+    y: -961
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Times are changing...
+  - It's a matter of fariness!
+  - Ok, Boomer.
+  parentSentenceNode: {fileID: -2084847755213560792}
+  childSentenceNodes:
+  - {fileID: -4540093971418513987}
+  - {fileID: 3292353875994706960}
+  - {fileID: -3141164856292392286}
+--- !u!114 &1515886512679178362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 694
+    y: 72
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - If you would just listen!
+  - It's my job!
+  parentSentenceNode: {fileID: -165251899607497753}
+  childSentenceNodes:
+  - {fileID: 5214025044502103946}
+  - {fileID: -6487373749855534458}
+--- !u!114 &1808274663175655336
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -551,22 +772,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2348.8
-    y: 132.8
+    x: 674
+    y: -2077
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: KATE
-    text: "Common values, yeah. There\u2019s gotta be some. We\u2019re all human
-      one way or another, right? "
+    characterName: Denise
+    text: '*Clears throat*'
     characterSprite: {fileID: 0}
-  parentNode: {fileID: 2414205193343685338}
-  childNode: {fileID: -8860076413894628070}
+  parentNode: {fileID: -6475837450538395200}
+  childNode: {fileID: -9212263477435827240}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &413957411481590818
+--- !u!114 &2776055842372499410
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -582,21 +802,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1376.8
-    y: 138.8
+    x: 422
+    y: -140
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: DENISE
-    text: 'What?! But I did nothing wrong! '
+    characterName: Richard
+    text: I will listen when you have something worthwhile to say. Get back to work!
     characterSprite: {fileID: 0}
-  parentNode: {fileID: -3288889635564438885}
-  childNode: {fileID: -8466053607860516257}
+  parentNode: {fileID: -4979697484285773766}
+  childNode: {fileID: 1515886512679178362}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &2414205193343685338
+--- !u!114 &3258027592555402633
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -612,22 +832,22 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2546.8
-    y: 127.8
+    x: 625
+    y: -628
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: DENISE
-    text: "Yeah, now that you put it like that, it makes sense. So you\u2019re saying
-      I should find common\u2026 "
+    characterName: Richard
+    text: "I didn\u2019t sign up for a social justice scolding. I\u2019d advise you
+      to be aware of how you\u2019re talking to your superior!"
     characterSprite: {fileID: 0}
-  parentNode: {fileID: 7605506054467908532}
-  childNode: {fileID: 225231309472106355}
+  parentNode: {fileID: -4540093971418513987}
+  childNode: {fileID: 3703268606403194399}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &2529143078160889321
+--- !u!114 &3292353875994706960
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -643,21 +863,110 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -5876.8
-    y: 100.8
+    x: 894
+    y: -793
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: DENISE
-    text: Ohhhh, what a day. You wanna drink?
+    characterName: Denise
+    text: "But- It\u2019s a matter of fairness-"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 657901129984728411}
+  childNode: {fileID: -9096943884512105977}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &3676081919466053658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 625
+    y: -288
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: "But- It\u2019s a matter of fairness-"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 3703268606403194399}
+  childNode: {fileID: 6406522791612703219}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &3703268606403194399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 620
+    y: -463
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Why are you being so rigid?!
+  - It's a matter of fariness!
+  parentSentenceNode: {fileID: 3258027592555402633}
+  childSentenceNodes:
+  - {fileID: 5051743074147720577}
+  - {fileID: 3676081919466053658}
+--- !u!114 &4621141222146438998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 813
+    y: -2445
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: Hello, Sir. Could I have a minute?
     characterSprite: {fileID: 0}
   parentNode: {fileID: 0}
-  childNode: {fileID: 5269613444483859901}
+  childNode: {fileID: -6475837450538395200}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &2742870867344760057
+--- !u!114 &5051743074147720577
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -673,22 +982,22 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -3999.8
-    y: 118.8
+    x: 1153
+    y: -399
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: KATE
-    text: "Haha, you\u2019re asking me for tips? I\u2019m also just a student! But
-      we can sit and talk it over if you\u2019d like? "
+    characterName: Denise
+    text: Ugh! *Why* do you have to be so rigid about this?! I'm trying to help you,
+      help this company!
     characterSprite: {fileID: 0}
-  parentNode: {fileID: -6367388944909312042}
-  childNode: {fileID: -3821243570549636772}
+  parentNode: {fileID: 3703268606403194399}
+  childNode: {fileID: -7156764173680623344}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &3904885246750174692
+--- !u!114 &5214025044502103946
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -704,144 +1013,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1000.80005
-    y: 141.8
+    x: 891
+    y: 223
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: DENISE
-    text: "Ugh, I guess\u2026 I was a little out of line. But it felt good to stand
-      up for something I believe in!"
+    characterName: Richard
+    text: Denise, it may serve to remind you how you're talking to your superior!
+      I will NOT have you raise your voice at me. Unless you've decided you'll no
+      longer be needing your position since you're running off with your alt-left
+      loonies, haha!
     characterSprite: {fileID: 0}
-  parentNode: {fileID: -8466053607860516257}
-  childNode: {fileID: -7727309348239789396}
-  isExternalFunc: 0
-  externalFunctionName: 
---- !u!114 &4192723925660126778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: -226.80003
-    y: 148.8
-    width: 190
-    height: 135
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: DENISE
-    text: 'Yeah, I get it, I think. '
-    characterSprite: {fileID: 0}
-  parentNode: {fileID: 7042280743854878335}
-  childNode: {fileID: -1714142446397875054}
-  isExternalFunc: 0
-  externalFunctionName: 
---- !u!114 &5269613444483859901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: -5660.8
-    y: 103.8
-    width: 190
-    height: 135
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: KATE
-    text: 'Just apple juice, please. '
-    characterSprite: {fileID: 0}
-  parentNode: {fileID: 2529143078160889321}
-  childNode: {fileID: -2388498925317185742}
-  isExternalFunc: 0
-  externalFunctionName: 
---- !u!114 &5325548272629586426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: -4617.8
-    y: 111.8
-    width: 190
-    height: 135
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: DENISE
-    text: "Well, he was just really unresponsive, holding age and (mocks) \u2018experience\u2019
-      over me like that makes his opinions any more important than mine.  It was
-      like he wasn't even listening. "
-    characterSprite: {fileID: 0}
-  parentNode: {fileID: -8670307350128252414}
-  childNode: {fileID: -3687117064428957777}
-  isExternalFunc: 0
-  externalFunctionName: 
---- !u!114 &6142396214251266253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 165.2
-    y: 149.8
-    width: 190
-    height: 135
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: DENISE
-    text: 'I got this.  '
-    characterSprite: {fileID: 0}
-  parentNode: {fileID: -1714142446397875054}
+  parentNode: {fileID: 1515886512679178362}
   childNode: {fileID: 0}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &6592003869068024832
+--- !u!114 &5402902053365261240
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -857,21 +1046,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -623.80005
-    y: 144.8
+    x: 692
+    y: -1669
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: DENISE
-    text: "Sounds like a compromise\u2026  "
+    characterName: Denise
+    text: No, Sir. But I had some ideas on how we could change that.
     characterSprite: {fileID: 0}
-  parentNode: {fileID: -7727309348239789396}
-  childNode: {fileID: 7042280743854878335}
+  parentNode: {fileID: 7429480242736194572}
+  childNode: {fileID: -4860951103183662629}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &7042280743854878335
+--- !u!114 &5443447125818313386
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -887,21 +1076,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -425.80005
-    y: 147.8
+    x: 1546
+    y: -442
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: KATE
-    text: "But it\u2019s a start. It\u2019s opening up conversation. "
+    characterName: Richard
+    text: Get back to work!
     characterSprite: {fileID: 0}
-  parentNode: {fileID: 6592003869068024832}
-  childNode: {fileID: 4192723925660126778}
+  parentNode: {fileID: -7156764173680623344}
+  childNode: {fileID: 0}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &7214038976724560258
+--- !u!114 &6406522791612703219
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -917,21 +1106,22 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -5247.8
-    y: 108.8
+    x: 624
+    y: -145
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: KATE
-    text: 'Thanks. How was the talk? Did you do it? '
+    characterName: Richard
+    text: "Fairness doesn\u2019t always equal competence. If you were my age you\u2019d
+      know that."
     characterSprite: {fileID: 0}
-  parentNode: {fileID: -2388498925317185742}
-  childNode: {fileID: -4306464008547495554}
+  parentNode: {fileID: 3676081919466053658}
+  childNode: {fileID: -4979697484285773766}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &7605506054467908532
+--- !u!114 &7429480242736194572
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -947,24 +1137,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2749.8
-    y: 124.8
+    x: 796
+    y: -1879
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: KATE
-    text: "Ok, so. I think it\u2019s admirable that you stood up for yourself and
-      what you believe in, but that\u2026 - vigour? - may have been a little misplaced.
-      Clearly that\u2019s what lead to disagreements. Insisting on clearly differing
-      points of view doesn\u2019t seem very productive\u2026 "
+    characterName: Richard
+    text: "\u2026 And we don\u2019t?"
     characterSprite: {fileID: 0}
-  parentNode: {fileID: -7198170915878492618}
-  childNode: {fileID: 2414205193343685338}
+  parentNode: {fileID: -9212263477435827240}
+  childNode: {fileID: 5402902053365261240}
   isExternalFunc: 0
   externalFunctionName: 
---- !u!114 &8177437512062783193
+--- !u!114 &7981442995005537862
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -980,17 +1167,50 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1961.8
-    y: 134.8
+    x: 340
+    y: 228
     width: 190
     height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: KATE
-    text: "Eh! That\u2019s not the spirit, is it? "
+    characterName: Denise
+    text: "As HR manager I see it as my duty to provide applicants with a just screening
+      process. I am sick of seeing perfectly valid applicants be rejected because
+      of some people\u2019s inherent prejudices. I won\u2019t stand for it!"
     characterSprite: {fileID: 0}
-  parentNode: {fileID: -8860076413894628070}
-  childNode: {fileID: -5891130585833224911}
+  parentNode: {fileID: -6487373749855534458}
+  childNode: {fileID: -7361221277428180128}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &8649099083674884262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 892
+    y: -275
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: "So we\u2019re just supposed to stay back while all the rest of society
+      embraces change? That\u2019s - That\u2019s absurd! And unfair."
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -1977553561016176997}
+  childNode: {fileID: -165251899607497753}
   isExternalFunc: 0
   externalFunctionName: 

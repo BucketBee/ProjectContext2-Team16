@@ -201,7 +201,7 @@ PrefabInstance:
     - target: {fileID: 8239891776458850066, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
       propertyPath: dialogGraph
       value: 
-      objectReference: {fileID: 11400000, guid: e6b1556682f5f784db19e65d2d046e6b, type: 2}
+      objectReference: {fileID: 11400000, guid: b9d8688fa8cc9754aae9132344ed2c80, type: 2}
     - target: {fileID: 8687630407075602370, guid: 904b6a6e33affec4d9a6bc944e456dab, type: 3}
       propertyPath: m_IsActive
       value: 1

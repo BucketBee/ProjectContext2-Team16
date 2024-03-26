@@ -1,0 +1,2588 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9209213447864736578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 441
+    y: -3785
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: (to barista) A Virgin Bloody Mary and an apple juice, please.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 3954409045597298319}
+  childNode: {fileID: 2493028705190420652}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-8938993070148224021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 734
+    y: -895
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: You gotta apologize.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 40705451450317220}
+  childNode: {fileID: -172532367891997103}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-8737808080920653314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 854
+    y: 1445
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: You got this.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -6546429072055244320}
+  childNode: {fileID: 5872216182207474465}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-8503957024999058943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 437
+    y: -3500
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: Well, he was just really unresponsive, holding age and "experience" over
+      me like that makes his opinions any more important than mine. It was like he
+      wasn't even listening.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -5348602101856365264}
+  childNode: {fileID: 5481461756984172825}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-7799934692523149359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1378
+    y: 676
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: And how am I supposed to know all this?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 8281972739610638034}
+  childNode: {fileID: 2934562107001559792}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-7284929249003083419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 348
+    y: -359
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: I agree, there's nothing wrong with that. But... Do you feel you did it
+      in an agreeable way?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 2605589903009102293}
+  childNode: {fileID: -1941768317822531976}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-7100598900682006992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1096
+    y: -1645
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: "Common values, yeah. There\u2019s gotta be some. We\u2019re all human
+      one way or another, right?"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -2353403827855376487}
+  childNode: {fileID: 5743284582215044051}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-7073209958383807350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 500
+    y: -2380
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: '*nods*'
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -53672398600234245}
+  childNode: {fileID: 7567057398426936214}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-6787031138349618866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 450
+    y: 140
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: He probably needs you to respect his authority - if you want to have a
+      somewhat productive conversation with him I think.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 5647150461038769626}
+  childNode: {fileID: -4352628178578048018}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-6736616492894722225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 697
+    y: -2701
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: So what do I do?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 2475442234190307834}
+  childNode: {fileID: -53672398600234245}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-6678543777616216099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1277
+    y: -80
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: But I don't feel like apologizing! For what even?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 5112676097841795338}
+  childNode: {fileID: -1327905928575338667}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-6583195808397282279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 256
+    y: 405
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: '*smiles*'
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 2477780012884299443}
+  childNode: {fileID: 1716483879714222292}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-6578641141040525846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1375
+    y: 418
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: Hey!
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 7081707773306539778}
+  childNode: {fileID: 7991094085215552755}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-6546429072055244320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 646
+    y: 1443
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: Yeah, I get it, I think.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 5301093426800121512}
+  childNode: {fileID: -8737808080920653314}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-6395789349117937135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 448
+    y: 8
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 'Kate '
+    text: 'And that''s what made him not want to listen. Clearly there''s a difference
+      of values there. '
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -1941768317822531976}
+  childNode: {fileID: -6787031138349618866}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5698018396373379691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 732
+    y: -1166
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: That's not the spirit, it?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -3377121564818058573}
+  childNode: {fileID: 3712195686359010480}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5591045598139637731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 848
+    y: 1172
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: "And now imagine how good it\u2019s gonna feel when you manage to achieve
+      something for that. Just hold out a little longer. You wanna change someone\u2019s
+      perspective, you first gotta make sure they understand it\u2019s not me or
+      you - it\u2019s us.\_"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 7740543829793218056}
+  childNode: {fileID: 7809489967429859828}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5582311414448938543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1471
+    y: -475
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: And do you think he will?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 5674718465054019682}
+  childNode: {fileID: -1658395196759714578}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5573171692338269431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -95
+    y: 264
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: And changing things for the better takes effort. If it were different,
+      a lot more people would do it.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 7342870292943814643}
+  childNode: {fileID: 3129897915944428655}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5348602101856365264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 670
+    y: -3642
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: Oh no, what happened?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -3309839838396700936}
+  childNode: {fileID: -8503957024999058943}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-4875272121314126784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1361
+    y: 124
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Nope
+  - Yeah, I guess I was a little out of line...
+  parentSentenceNode: {fileID: -1327905928575338667}
+  childSentenceNodes:
+  - {fileID: 7081707773306539778}
+  - {fileID: 5647150461038769626}
+--- !u!114 &-4508570992772139053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 439
+    y: -3928
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: Ohhhh, what a day. You wanna drink?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 3954409045597298319}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-4352628178578048018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 255
+    y: 272
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: Okay, I can apologize, I guess.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -6787031138349618866}
+  childNode: {fileID: 2477780012884299443}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-3746079755604710446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 729
+    y: -480
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: What? Why?? I did nothing wrong!
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -172532367891997103}
+  childNode: {fileID: 4322427013960354227}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-3377121564818058573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 730
+    y: -1296
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: Eh!
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 5743284582215044051}
+  childNode: {fileID: -5698018396373379691}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-3309839838396700936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 439
+    y: -3647
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: "Yeah\u2026 But it didn't go so well\u2026"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 2493028705190420652}
+  childNode: {fileID: -5348602101856365264}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-2911079846126392978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 153
+    y: -490
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: Absolutely not! I did nothing wrong!
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -172532367891997103}
+  childNode: {fileID: 4958851017002170557}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-2353403827855376487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 886
+    y: -1645
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: "Yeah, now that you put it like that, it makes sense. So you\u2019re saying
+      I should find common\u2026"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -1095240640065682976}
+  childNode: {fileID: -7100598900682006992}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-1941768317822531976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 247
+    y: -177
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Why do *I* always have to be the agreeable one?
+  - Yeah, I guess I was a little out of line...
+  parentSentenceNode: {fileID: -7284929249003083419}
+  childSentenceNodes:
+  - {fileID: 7901518848769849490}
+  - {fileID: -6395789349117937135}
+--- !u!114 &-1786827019802229084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 500
+    y: -2245
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: '*gives her best word-for-word account*'
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 7567057398426936214}
+  childNode: {fileID: 8379176713811563673}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-1658395196759714578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1278
+    y: -341
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: '... '
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -5582311414448938543}
+  childNode: {fileID: 741169777462472724}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-1553071812205691962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1377
+    y: 808
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: ...
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 2934562107001559792}
+  childNode: {fileID: 5769057730545261151}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-1327905928575338667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1466
+    y: -80
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: It's going to set off the conversation on a more mutual path, trust me.
+      And as for 'what', are you *sure* there's nothing you can think of?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -6678543777616216099}
+  childNode: {fileID: -4875272121314126784}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-1095240640065682976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 706
+    y: -1804
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - So what do I instead?
+  - Yeah that makes sense.
+  parentSentenceNode: {fileID: -53157628691830777}
+  childSentenceNodes:
+  - {fileID: -341079615816675647}
+  - {fileID: -2353403827855376487}
+--- !u!114 &-341079615816675647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 477
+    y: -1639
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: You'll have to figure out a way to find common ground. You work at the
+      same firm, surely there must be something.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -1095240640065682976}
+  childNode: {fileID: 1771873068146842814}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-272758729119611160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 902
+    y: -2975
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: And you're just gonna give up like that? That's not the Denny I know...
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 4065603261172061382}
+  childNode: {fileID: 2475442234190307834}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-172532367891997103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 734
+    y: -726
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Absolutely not!
+  - What? Why?
+  - What? It's HIM that needs to change...
+  parentSentenceNode: {fileID: -8938993070148224021}
+  childSentenceNodes:
+  - {fileID: -2911079846126392978}
+  - {fileID: -3746079755604710446}
+  - {fileID: 5674718465054019682}
+--- !u!114 &-53672398600234245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 696
+    y: -2518
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: "Haha, you\u2019re asking me for tips? I\u2019m also just a student! But
+      we can sit and talk it over if you\u2019d like?"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -6736616492894722225}
+  childNode: {fileID: -7073209958383807350}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-53157628691830777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 704
+    y: -1964
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: "Clearly that\u2019s what lead to disagreements. Insisting on clearly differing
+      points of view doesn\u2019t seem very productive\u2026"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 2409423528050396620}
+  childNode: {fileID: -1095240640065682976}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: 2.2 I_v2
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -4508570992772139053}
+  - {fileID: 3954409045597298319}
+  - {fileID: -9209213447864736578}
+  - {fileID: 2493028705190420652}
+  - {fileID: -3309839838396700936}
+  - {fileID: -5348602101856365264}
+  - {fileID: -8503957024999058943}
+  - {fileID: 5481461756984172825}
+  - {fileID: 1728677613549025596}
+  - {fileID: 7016702532970607550}
+  - {fileID: 2675755089978603291}
+  - {fileID: 1171082941982737106}
+  - {fileID: 4065603261172061382}
+  - {fileID: -272758729119611160}
+  - {fileID: 2475442234190307834}
+  - {fileID: -6736616492894722225}
+  - {fileID: -53672398600234245}
+  - {fileID: -7073209958383807350}
+  - {fileID: 7567057398426936214}
+  - {fileID: -1786827019802229084}
+  - {fileID: 8379176713811563673}
+  - {fileID: 7910738902306071914}
+  - {fileID: 2409423528050396620}
+  - {fileID: -53157628691830777}
+  - {fileID: -1095240640065682976}
+  - {fileID: -341079615816675647}
+  - {fileID: 1771873068146842814}
+  - {fileID: -2353403827855376487}
+  - {fileID: -7100598900682006992}
+  - {fileID: 5743284582215044051}
+  - {fileID: -3377121564818058573}
+  - {fileID: -5698018396373379691}
+  - {fileID: 3712195686359010480}
+  - {fileID: 40705451450317220}
+  - {fileID: -8938993070148224021}
+  - {fileID: -172532367891997103}
+  - {fileID: -2911079846126392978}
+  - {fileID: 4958851017002170557}
+  - {fileID: 2605589903009102293}
+  - {fileID: -7284929249003083419}
+  - {fileID: -1941768317822531976}
+  - {fileID: 5939646196506863561}
+  - {fileID: 7782277728300467268}
+  - {fileID: -3746079755604710446}
+  - {fileID: 4322427013960354227}
+  - {fileID: 2489313310153717544}
+  - {fileID: 1685800673650703639}
+  - {fileID: 5674718465054019682}
+  - {fileID: -5582311414448938543}
+  - {fileID: -1658395196759714578}
+  - {fileID: 741169777462472724}
+  - {fileID: 5112676097841795338}
+  - {fileID: -6678543777616216099}
+  - {fileID: -1327905928575338667}
+  - {fileID: 7901518848769849490}
+  - {fileID: 7342870292943814643}
+  - {fileID: -5573171692338269431}
+  - {fileID: 3129897915944428655}
+  - {fileID: -6395789349117937135}
+  - {fileID: -6787031138349618866}
+  - {fileID: -4352628178578048018}
+  - {fileID: 2477780012884299443}
+  - {fileID: -6583195808397282279}
+  - {fileID: 1716483879714222292}
+  - {fileID: -4875272121314126784}
+  - {fileID: 7081707773306539778}
+  - {fileID: -6578641141040525846}
+  - {fileID: 7991094085215552755}
+  - {fileID: 5289642814494616896}
+  - {fileID: -7799934692523149359}
+  - {fileID: 2934562107001559792}
+  - {fileID: -1553071812205691962}
+  - {fileID: 5769057730545261151}
+  - {fileID: 7740543829793218056}
+  - {fileID: 5647150461038769626}
+  - {fileID: -5591045598139637731}
+  - {fileID: 7809489967429859828}
+  - {fileID: 5301093426800121512}
+  - {fileID: -6546429072055244320}
+  - {fileID: -8737808080920653314}
+  - {fileID: 5872216182207474465}
+  - {fileID: 8281972739610638034}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &40705451450317220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 734
+    y: -1032
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: If you really want this to work -
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 3712195686359010480}
+  childNode: {fileID: -8938993070148224021}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &741169777462472724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1279
+    y: -211
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: He should.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -1658395196759714578}
+  childNode: {fileID: 5112676097841795338}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &1171082941982737106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 899
+    y: -3105
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: Wait, so you're not going to try again?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 2675755089978603291}
+  childNode: {fileID: 4065603261172061382}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &1685800673650703639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 734
+    y: -210
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: I was a little out of line. But it felt good to stand up for something
+      I believe in!
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 2489313310153717544}
+  childNode: {fileID: -5591045598139637731}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &1716483879714222292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 259
+    y: 535
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: For the cause.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -6583195808397282279}
+  childNode: {fileID: -5591045598139637731}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &1728677613549025596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 669
+    y: -3296
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - It was useless aynway.
+  - I don't want it to end here...
+  parentSentenceNode: {fileID: 5481461756984172825}
+  childSentenceNodes:
+  - {fileID: 2675755089978603291}
+  - {fileID: 5939646196506863561}
+--- !u!114 &1771873068146842814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 287
+    y: -1508
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: I'm not so sure with that old crone. The way he dismissed me made me doubt
+      if he was even human...
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -341079615816675647}
+  childNode: {fileID: -3377121564818058573}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &2409423528050396620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 703
+    y: -2102
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: "Ok, so. I think it\u2019s admirable that you stood up for yourself and
+      what you believe in, but that\u2026 - vigour? - may have been a little misplaced."
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 7910738902306071914}
+  childNode: {fileID: -53157628691830777}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &2475442234190307834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 697
+    y: -2840
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: Aww, thanks :). But I feel I'm at a loss...
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -272758729119611160}
+  childNode: {fileID: -6736616492894722225}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &2477780012884299443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 451
+    y: 271
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: For the cause?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -4352628178578048018}
+  childNode: {fileID: -6583195808397282279}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &2489313310153717544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 732
+    y: -346
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: "Ugh, I guess\u2026"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 4322427013960354227}
+  childNode: {fileID: 1685800673650703639}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &2493028705190420652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 669
+    y: -3782
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: Thanks. How was the talk? Did you do it?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -9209213447864736578}
+  childNode: {fileID: -3309839838396700936}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &2605589903009102293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 151
+    y: -357
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: Absolutely. I was just standing up for what I believe in.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 4958851017002170557}
+  childNode: {fileID: -7284929249003083419}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &2675755089978603291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 694
+    y: -3107
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: Yeah, it was really exhausting. Like talking to a rock... I guess some
+      things are just not meant to change.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 1728677613549025596}
+  childNode: {fileID: 1171082941982737106}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &2934562107001559792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1563
+    y: 678
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: It's just empathy, I guess? So, if you were him, what would you want *you*
+      to do?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -7799934692523149359}
+  childNode: {fileID: -1553071812205691962}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &3129897915944428655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -287
+    y: 396
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: UGH! Being the bigger person is such a nuisance... But okay, I can do it.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -5573171692338269431}
+  childNode: {fileID: -5591045598139637731}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &3712195686359010480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 538
+    y: -1031
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: "Sorry, it just had to get out. So, common values, got it. Where\u2019s
+      the part I\u2019m not gonna like?"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -5698018396373379691}
+  childNode: {fileID: 40705451450317220}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &3954409045597298319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 670
+    y: -3928
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: Just apple juice, please.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -4508570992772139053}
+  childNode: {fileID: -9209213447864736578}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &4065603261172061382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 696
+    y: -2973
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: I gave it my best shot, didn't I?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 1171082941982737106}
+  childNode: {fileID: -272758729119611160}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &4322427013960354227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 924
+    y: -480
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: "In your own view you didn\u2019t. But if you wanna reach an understanding,
+      you gotta have some empathy, even when you don\u2019t want to.\_"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -3746079755604710446}
+  childNode: {fileID: 2489313310153717544}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &4958851017002170557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 349
+    y: -488
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: Absolutely nothing?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -2911079846126392978}
+  childNode: {fileID: 2605589903009102293}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5112676097841795338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1470
+    y: -210
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: I hope you don't mind my pointing out, but - Insisting on your singular
+      point of view is exactly what got you here
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 741169777462472724}
+  childNode: {fileID: -6678543777616216099}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5289642814494616896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1561
+    y: 551
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: If I had to put myself in your superior's shoes, I'd say you were wayyy
+      out of line. If he doesn't feel respected while talking to you, why should
+      he listen? He's the CEO - ergo, in a position of power - and you wanna come
+      along and complicate things? With such an attitude none the less?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 7991094085215552755}
+  childNode: {fileID: 8281972739610638034}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5301093426800121512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 852
+    y: 1310
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: "But it\u2019s a start. It\u2019s opening up conversation.\_"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 7809489967429859828}
+  childNode: {fileID: -6546429072055244320}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5481461756984172825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 669
+    y: -3497
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: "Ahw, Denny, I\u2019m so sorry to hear that. Well, it\u2019s over now,
+      you can relax."
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -8503957024999058943}
+  childNode: {fileID: 1728677613549025596}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5647150461038769626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1031
+    y: 124
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: 'And that''s what made him not want to listen. Clearly there''s a difference
+      of values there. '
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -4875272121314126784}
+  childNode: {fileID: -6787031138349618866}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5674718465054019682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1276
+    y: -475
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: It shouldn't be me who's apologizing, it's him!
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -172532367891997103}
+  childNode: {fileID: -5582311414448938543}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5743284582215044051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 889
+    y: -1507
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: "Eh, for better or worse with that old crone\u2026"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -7100598900682006992}
+  childNode: {fileID: -3377121564818058573}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5769057730545261151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1378
+    y: 934
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: Apologize...
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -1553071812205691962}
+  childNode: {fileID: 7740543829793218056}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5872216182207474465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 650
+    y: 1580
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: I got this.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -8737808080920653314}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5939646196506863561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 456
+    y: -3113
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: "Yeah, but\u2026 I don\u2019t want it to be over. The talk we had the other
+      day really meant something to me, "
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 1728677613549025596}
+  childNode: {fileID: 7782277728300467268}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7016702532970607550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 83
+    y: -3116
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: "Don\u2019t you have any tips?"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 7782277728300467268}
+  childNode: {fileID: -53672398600234245}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7081707773306539778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1559
+    y: 289
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: So you need me to spell it out for you... Stubborn as you're being, you're
+      definitely more similar to you superior than you think.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -4875272121314126784}
+  childNode: {fileID: -6578641141040525846}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7342870292943814643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -98
+    y: 135
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: '*smiles*'
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 7901518848769849490}
+  childNode: {fileID: -5573171692338269431}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7567057398426936214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 698
+    y: -2380
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: So, tell me; word for word if you can. What happened?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -7073209958383807350}
+  childNode: {fileID: -1786827019802229084}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7740543829793218056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1568
+    y: 935
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: It might not feel great right now, but trust me.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 5769057730545261151}
+  childNode: {fileID: -5591045598139637731}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7782277728300467268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 268
+    y: -3117
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: and I wanna share that with other people, too!
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 5939646196506863561}
+  childNode: {fileID: 7016702532970607550}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7809489967429859828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 647
+    y: 1308
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: "Sounds like a compromise\u2026\_"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -5591045598139637731}
+  childNode: {fileID: 5301093426800121512}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7901518848769849490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -98
+    y: 9
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: Because you want to bring change, don't you? You want to make things better.
+      It's what I appreciate so much in you as a friend.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -1941768317822531976}
+  childNode: {fileID: 7342870292943814643}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7910738902306071914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 498
+    y: -2102
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Denise
+    text: Just lay it on me, girl.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 8379176713811563673}
+  childNode: {fileID: 2409423528050396620}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7991094085215552755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1560
+    y: 418
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: Taste of your own medicine, eh?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -6578641141040525846}
+  childNode: {fileID: 5289642814494616896}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &8281972739610638034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1752
+    y: 554
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: Nope, walls up, we're not having this conversation.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 5289642814494616896}
+  childNode: {fileID: -7799934692523149359}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &8379176713811563673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 703
+    y: -2239
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Kate
+    text: "I see\u2026 That does sound rather heated\u2026 You might not like what
+      I have to say, though."
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -1786827019802229084}
+  childNode: {fileID: 7910738902306071914}
+  isExternalFunc: 0
+  externalFunctionName: 
