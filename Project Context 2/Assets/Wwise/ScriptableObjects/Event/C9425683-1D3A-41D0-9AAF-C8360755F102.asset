@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6662b6949b284345a3d6264c3d1c78b, type: 3}
+  m_Name: C9425683-1D3A-41D0-9AAF-C8360755F102
+  m_EditorClassIdentifier: 
+  objectName: Play_Hat5
+  id: 2588123482
+  guid: C9425683-1D3A-41D0-9AAF-C8360755F102

@@ -26,7 +26,7 @@ public class CameraController : MonoBehaviour
     private float _movementSpeed;
 
     private Vector3 _newPosition;
-    private Vector3 _newZoom;
+    public Vector3 _newZoom { get; private set; }
     private Vector3 _dragStartPosition;
     private Vector3 _dragCurrentPosition;
 

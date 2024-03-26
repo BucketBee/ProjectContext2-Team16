@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../../../../../../../../WwiseProjects/Context2_Project</ProjectRoot>
+		<SourceFilesRoot>../../../../../../../../WwiseProjects/Context2_Project/.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../../../../../WwiseProjects/Context2_Project/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{C1D86F69-B5FE-7E69-3083-94A43C8C0326}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="1240670792" Name="Distance"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{460C6D0E-2145-CB59-F294-4A9ED4119002}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="142139486" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundly Audio\AMBTran-ortf clippy_Utrecht central station, bussy, babby screaming _SK_Context_t4 1.wav</ShortName>
+					<CachePath>SFX/Soundly Audio/AMBTran-ortf clippy_Utrecht central station, bussy, babby screaming _SK_Context_t4 1_828A9FC4.wem</CachePath>
+				</File>
+				<File Id="203616418" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundly Audio\AMBPubl_Louvre Exterior Crowds Queueing Restaurant Sound_BH_A Trip to Paris.wav</ShortName>
+					<CachePath>SFX/Soundly Audio/AMBPubl_Louvre Exterior Crowds Queueing Restaurant Sound_BH_A Trip to Paris_818F3B66.wem</CachePath>
+				</File>
+				<File Id="810118755" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hat5.wav</ShortName>
+					<CachePath>SFX/Hat5_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2588123482" Name="Play_Hat5">
+					<MediaRefs>
+						<MediaRef Id="810118755"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3154144323" Name="Play_Neude_ambi">
+					<MediaRefs>
+						<MediaRef Id="203616418"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2272800833" Name="Play_TrainStation_ambi_1_T4">
+					<MediaRefs>
+						<MediaRef Id="142139486"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1240670792" Name="Distance"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{20F4A275-8BC7-1D7D-CB06-7A53B56B86A1}</FileHash>
+</SoundBanksInfo>

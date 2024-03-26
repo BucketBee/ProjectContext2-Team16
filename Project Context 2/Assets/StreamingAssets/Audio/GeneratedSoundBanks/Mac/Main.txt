@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2272800833	Play_TrainStation_ambi_1_T4			\Default Work Unit\Play_TrainStation_ambi_1_T4	
+	2588123482	Play_Hat5			\Default Work Unit\Play_Hat5	
+	3154144323	Play_Neude_ambi			\Default Work Unit\Play_Neude_ambi	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1240670792	Distance			\Default Work Unit\Distance	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	142139486	TrainStation_ambi_1_T4	Y:\Documents\WwiseProjects\Context2_Project\.cache\Windows\SFX\Soundly Audio\AMBTran-ortf clippy_Utrecht central station, bussy, babby screaming _SK_Context_t4 1_828A9FC4.wem		\Actor-Mixer Hierarchy\Default Work Unit\TrainStation_ambi_1_T4		5551448
+	203616418	Neude_ambi	Y:\Documents\WwiseProjects\Context2_Project\.cache\Windows\SFX\Soundly Audio\AMBPubl_Louvre Exterior Crowds Queueing Restaurant Sound_BH_A Trip to Paris_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Neude_ambi		22272456
+	810118755	Hat5	Y:\Documents\WwiseProjects\Context2_Project\.cache\Windows\SFX\Hat5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hat5		92200
+
