@@ -25,7 +25,7 @@
 				<GameParameter Id="1240670792" Name="Distance"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{EB00FBDA-6999-4AE5-B9F3-576726F3D4DF}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{4DF7636E-2B59-AE86-40C3-792B7A9DE6B8}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -59,7 +59,7 @@
 				</File>
 				<File Id="632973591" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>office_ambi_01.wav</ShortName>
-					<CachePath>SFX/office_ambi_01_1B7EFFFB.wem</CachePath>
+					<CachePath>SFX/office_ambi_01_C131FFFC.wem</CachePath>
 				</File>
 				<File Id="810118755" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hat5.wav</ShortName>
@@ -135,5 +135,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E9D39DB9-61BF-1549-9E41-C6343F7990D4}</FileHash>
+	<FileHash>{A7E9CD8E-8E84-14BA-64CF-1D28E953B0E8}</FileHash>
 </SoundBanksInfo>
