@@ -89,6 +89,7 @@ public class InteractionBox : MonoBehaviour
             Debug.Log("Sent " + inspirationAmount + " inspiration to EventManager.");
             interactionCompleted = true;
         }
+        GameStateManager.ChangeGameState(_newGameState);
     }
 
     IEnumerator EnableBackground()
