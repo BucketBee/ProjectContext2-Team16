@@ -84,17 +84,17 @@
 				</Custom>
 			</Plugins>
 			<Events>
-				<Event Id="3562306058" Name="Play_ACU_ambi_loop_comp" DurationType="Infinite">
+				<Event Id="3562306058" Name="Play_ACU_ambi_loop_comp">
 					<MediaRefs>
 						<MediaRef Id="861736888"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2588123482" Name="Play_Hat5" DurationType="OneShot" DurationMin="0.5221315" DurationMax="0.5221315">
+				<Event Id="2588123482" Name="Play_Hat5">
 					<MediaRefs>
 						<MediaRef Id="810118755"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2406957724" Name="Play_keyboard_office" MaxAttenuation="100" DurationType="Infinite">
+				<Event Id="2406957724" Name="Play_keyboard_office">
 					<MediaRefs>
 						<MediaRef Id="77275545"/>
 						<MediaRef Id="192798991"/>
@@ -107,24 +107,24 @@
 						</Custom>
 					</PluginRefs>
 				</Event>
-				<Event Id="657389837" Name="Play_music_sequence" DurationType="Mixed" DurationMin="75.7" DurationMax="Infinite">
+				<Event Id="657389837" Name="Play_music_sequence">
 					<MediaRefs>
 						<MediaRef Id="162270760"/>
 						<MediaRef Id="403911890"/>
 						<MediaRef Id="845200166"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3154144323" Name="Play_Neude_ambi" MaxAttenuation="200" DurationType="Infinite">
+				<Event Id="3154144323" Name="Play_Neude_ambi">
 					<MediaRefs>
 						<MediaRef Id="203616418"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2302112142" Name="Play_office_ambi_01" DurationType="Infinite">
+				<Event Id="2302112142" Name="Play_office_ambi_01">
 					<MediaRefs>
 						<MediaRef Id="632973591"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2272800833" Name="Play_TrainStation_ambi_1_T4" MaxAttenuation="200" DurationType="Infinite">
+				<Event Id="2272800833" Name="Play_TrainStation_ambi_1_T4">
 					<MediaRefs>
 						<MediaRef Id="142139486"/>
 					</MediaRefs>
@@ -135,5 +135,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F24F7E3D-6BC6-13C4-5E98-2D45E9EF1FEA}</FileHash>
+	<FileHash>{3334488E-B46D-3B42-7AE8-4F0FAF582531}</FileHash>
 </SoundBanksInfo>
