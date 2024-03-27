@@ -8,10 +8,14 @@ public class SetDestonationPlayer : MonoBehaviour, IPointerDownHandler, IPointer
 {
     [SerializeField]
     private string Scene;
+
+    private bool _clickable;
     public void OnPointerClick(PointerEventData eventData)
     {
-      SceneManager.LoadScene(Scene);
-      EventManager.CallOnSceneSwitch();
+        // Debug.Log("BOMBA");
+        //EventManager.CallOnSceneSwitch();
+        //SceneManager.LoadScene(Scene);
+
     }
     public void OnPointerDown(PointerEventData eventData)
     {
@@ -29,4 +33,23 @@ public class SetDestonationPlayer : MonoBehaviour, IPointerDownHandler, IPointer
     {
 
     }
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0) && _clickable)
+        {
+            Debug.Log("BOMBA");
+            EventManager.CallOnSceneSwitch();
+            SceneManager.LoadScene(Scene);
+        }
+    }
+    private void OnMouseEnter()
+    {
+        _clickable= true;
+    }
+    private void OnMouseExit()
+    {
+        _clickable= false;
+    }
+
 }
