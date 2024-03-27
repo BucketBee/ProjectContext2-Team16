@@ -11,7 +11,7 @@ public class BuildingManager : MonoBehaviour
 
     private int CalculateInspiredBuildings()
     {
-        return _inspirationAmountBuildings = (int)(_buildings.Count * (InspirationManager._inspirationMeter / 100));
+        return _inspirationAmountBuildings = (int)(_buildings.Count * (InspirationManager._inspirationMeter / 50));
     }
     private void Start()
     {

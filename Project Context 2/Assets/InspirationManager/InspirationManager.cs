@@ -9,5 +9,6 @@ public class InspirationManager : MonoBehaviour
     static public void ChangeInspirationMeter(float amount)
     {
             _inspirationMeter += amount;
+        Debug.Log(_inspirationMeter);
     }
 }
