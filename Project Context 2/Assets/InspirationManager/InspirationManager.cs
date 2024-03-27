@@ -11,4 +11,8 @@ public class InspirationManager : MonoBehaviour
             _inspirationMeter += amount;
         Debug.Log(_inspirationMeter);
     }
+    private void Start()
+    {
+        _inspirationMeter = 20f;
+    }
 }

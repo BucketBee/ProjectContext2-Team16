@@ -20,12 +20,18 @@ public class GameStateManager : MonoBehaviour
     }
     private void Awake()
     {
+        Object.DontDestroyOnLoad(gameObject);
         NotificationScriptableObjectManager.ClearNotificationList();
         EventManager.OnSceneSwitch += UpdateGameState;
         UpdateGameState();
     }
+    private void Start()
+    {
+        gameState= 0;
+    }
     private void UpdateGameState()
     {
+        Debug.Log(gameState);
         string currentscene = SceneManager.GetActiveScene().name;
         if (currentscene == "Test - Erik")
         {
