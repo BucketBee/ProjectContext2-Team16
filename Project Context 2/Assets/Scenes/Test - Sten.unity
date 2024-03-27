@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -947,9 +947,9 @@ GameObject:
   - component: {fileID: 57576095}
   - component: {fileID: 57576094}
   - component: {fileID: 57576093}
-  - component: {fileID: 57576092}
   - component: {fileID: 57576091}
   - component: {fileID: 57576090}
+  - component: {fileID: 57576098}
   m_Layer: 0
   m_Name: Neude_audioEmitter
   m_TagString: Untagged
@@ -1018,31 +1018,6 @@ MonoBehaviour:
   eventIdInternal: 0
   valueGuidInternal: 
   m_callbackDataInternal: {fileID: 0}
---- !u!114 &57576092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 57576088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35048cdc4670b40aab141fd52e584e2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 409d4b576cef24c6f96b4b5abeb7da6f, type: 2}
-  decodeBank: 0
-  overrideLoadSetting: 0
-  loadAsynchronous: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
-  bankNameInternal: 
-  valueGuidInternal: 
 --- !u!114 &57576093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1163,6 +1138,31 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 57576088}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &57576098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57576088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35048cdc4670b40aab141fd52e584e2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1001 &68908223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18533,7 +18533,7 @@ PrefabInstance:
     - target: {fileID: 8743795596659067657, guid: a7bf65536a10e2246b1a6a9478d50309, type: 3}
       propertyPath: _notificationIconUI
       value: 
-      objectReference: {fileID: 864886619}
+      objectReference: {fileID: 0}
     - target: {fileID: 8743795596659067657, guid: a7bf65536a10e2246b1a6a9478d50309, type: 3}
       propertyPath: _notificationTextUI
       value: 
@@ -19318,17 +19318,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3119886950567628905, guid: eba0dca9c5696e442b76b6f4dd5d8a20, type: 3}
   m_PrefabInstance: {fileID: 862975893}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &864886619 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1966497014514985269, guid: cf3193647401f134e88ecc2c865d2ad4, type: 3}
-  m_PrefabInstance: {fileID: 1100128923}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &866040823
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21085,7 +21074,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _characterName: {fileID: 1526004383}
-  _characterInfo: {fileID: 1102995859}
+  _characterOccupation: {fileID: 1526004383}
+  _characterAge: {fileID: 1102995859}
   _characterIcon: {fileID: 734433145}
   _startingCharacter: {fileID: 11400000, guid: cf8ca690ce8b3e74d9d66d6d418aebc6, type: 2}
 --- !u!1001 &973039004

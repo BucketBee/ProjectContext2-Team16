@@ -32976,8 +32976,6 @@ MonoBehaviour:
   - {fileID: 1494265233}
   - {fileID: 1150642280}
   - {fileID: 441056607}
-  - {fileID: 1536578211}
-  - {fileID: 654419574}
 --- !u!198 &1492015884 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 3536478070669296514, guid: 4e72e812a7f78b645b7c282c9990ebc8, type: 3}
