@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<RootPaths>
-		<ProjectRoot>../../../../../../../../WwiseProjects/Context2_Project</ProjectRoot>
-		<SourceFilesRoot>../../../../../../../../WwiseProjects/Context2_Project/.cache/Mac</SourceFilesRoot>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../../../../../../../WwiseProjects/Context2_Project/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
@@ -135,5 +135,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A7E9CD8E-8E84-14BA-64CF-1D28E953B0E8}</FileHash>
+	<FileHash>{56725015-3F9B-DFF4-FD0E-4AB7F25EB7B1}</FileHash>
 </SoundBanksInfo>

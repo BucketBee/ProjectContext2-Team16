@@ -1025,7 +1025,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 57576088}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 35048cdc4670b40aab141fd52e584e2a, type: 3}
   m_Name: 
@@ -1035,7 +1035,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 409d4b576cef24c6f96b4b5abeb7da6f, type: 2}
+    WwiseObjectReference: {fileID: 0}
   decodeBank: 0
   overrideLoadSetting: 0
   loadAsynchronous: 0
