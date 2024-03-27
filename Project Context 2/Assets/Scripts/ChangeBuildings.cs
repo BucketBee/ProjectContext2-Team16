@@ -13,15 +13,21 @@ public class ChangeBuildings : MonoBehaviour
     private void Awake()
     {
         _renderer = GetComponent<MeshRenderer>();
-        _particle = GetComponent<ParticleSystem>();
     }
     private void Start()
     {
-        _renderer.sharedMaterial = _materials[0];
+        if (_materials.Length != 0)
+        {
+            _renderer.sharedMaterial = _materials[0];
+        }
     }
     public void Change()
     {
-      _renderer.sharedMaterial = _materials[1];
+        if(_materials.Length != 0)
+        {
+            _renderer.sharedMaterial = _materials[1];
+        }
+      
         if(_particle != null )
         {
             _particle.Play();

@@ -9,16 +9,16 @@ public class BuildingManager : MonoBehaviour
 
     private int _inspirationAmountBuildings;
 
-    private int CalculateInspiredNpcs()
+    private int CalculateInspiredBuildings()
     {
         return _inspirationAmountBuildings = (int)(_buildings.Count * (InspirationManager._inspirationMeter / 100));
     }
     private void Start()
     {
         int i = 0;
-        while (i < CalculateInspiredNpcs())
+        while (i < CalculateInspiredBuildings())
         {
-            Debug.Log(CalculateInspiredNpcs());
+            Debug.Log(CalculateInspiredBuildings());
             ChangeBuildings changeMaterialBuildings = _buildings[i].GetComponent<ChangeBuildings>();
             if (changeMaterialBuildings == null)
                 return;
