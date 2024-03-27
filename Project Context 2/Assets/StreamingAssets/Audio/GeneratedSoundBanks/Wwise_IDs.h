@@ -13,8 +13,12 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_ACU_AMBI_LOOP_COMP = 3562306058U;
         static const AkUniqueID PLAY_HAT5 = 2588123482U;
+        static const AkUniqueID PLAY_KEYBOARD_OFFICE = 2406957724U;
+        static const AkUniqueID PLAY_MUSIC_SEQUENCE = 657389837U;
         static const AkUniqueID PLAY_NEUDE_AMBI = 3154144323U;
+        static const AkUniqueID PLAY_OFFICE_AMBI_01 = 2302112142U;
         static const AkUniqueID PLAY_TRAINSTATION_AMBI_1_T4 = 2272800833U;
     } // namespace EVENTS
 
