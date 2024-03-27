@@ -10,5 +10,7 @@ public class CharacterInfoScriptableObject : ScriptableObject
     [Header("Photo")]
     public Sprite _icon;
     [Header("Description")]
-    [TextArea] public string _description;
+    public string _occupation;
+
+    public string _age;
 }

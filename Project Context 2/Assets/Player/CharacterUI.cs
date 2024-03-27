@@ -9,7 +9,9 @@ public class CharacterUI : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI _characterName;
     [SerializeField]
-    private TextMeshProUGUI _characterInfo;
+    private TextMeshProUGUI _characterOccupation;
+    [SerializeField]
+    private TextMeshProUGUI _characterAge;
     [SerializeField]
     private Image _characterIcon;
     [SerializeField]
@@ -28,7 +30,8 @@ public class CharacterUI : MonoBehaviour
     private void UpdateUI(CharacterInfoScriptableObject character)
     {
         _characterName.text = character._name;
-        _characterInfo.text = character._description;
+        _characterOccupation.text = character._occupation;
+        _characterAge.text= character._age;
         _characterIcon.sprite = character._icon;
     }
     private void OnDestroy()
