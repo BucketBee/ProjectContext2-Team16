@@ -69,6 +69,7 @@ public class NotificationScriptableObjectManager : MonoBehaviour
         notificationScriptableObjects.RemoveAt(0);
         if(notificationScriptableObjects.Count > 0)
         {
+            yield return new WaitForSeconds(Random.Range(0, 20));
             EnableNotifaction();
         }
     }

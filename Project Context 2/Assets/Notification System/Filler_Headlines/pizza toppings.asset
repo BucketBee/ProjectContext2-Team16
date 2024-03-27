@@ -15,5 +15,5 @@ MonoBehaviour:
   _notifactionMessage: '10 Unusual pizza toppings you need to try right now!
 
 '
-  _disableAfterTimer: 0
-  _disableTimer: 1
+  _disableAfterTimer: 1
+  _disableTimer: 10

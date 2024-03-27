@@ -15,5 +15,5 @@ MonoBehaviour:
   _notifactionMessage: '20 Hilarious tweets that sum up adulting perfectly!
 
 '
-  _disableAfterTimer: 0
-  _disableTimer: 1
+  _disableAfterTimer: 1
+  _disableTimer: 10

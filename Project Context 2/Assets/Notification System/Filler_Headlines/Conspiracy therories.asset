@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _notifactionMessage: "Top 10 craziest conspiracy theories you won\u2019t believe
     exist!"
-  _disableAfterTimer: 0
-  _disableTimer: 1
+  _disableAfterTimer: 1
+  _disableTimer: 10

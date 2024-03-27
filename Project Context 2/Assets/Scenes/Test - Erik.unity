@@ -31803,16 +31803,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newPapersState0:
-  - {fileID: 11400000, guid: ea68530bc1af2eb4a91db7c777e9267a, type: 2}
-  - {fileID: 11400000, guid: 2accd17a7b3e29748be19b41144c2d28, type: 2}
-  - {fileID: 11400000, guid: f64b8b740fe33034b83736d1569a3040, type: 2}
-  - {fileID: 11400000, guid: 4459053a5b27a5645949e8b632427c27, type: 2}
+  - {fileID: 11400000, guid: bcba75592ebd9eb47b6f3fb777214b35, type: 2}
+  - {fileID: 11400000, guid: dc091bfdf6ff2e944a7e9c5a479f2a4c, type: 2}
+  - {fileID: 11400000, guid: c42ab067bae371d429594e26c29ae65a, type: 2}
+  - {fileID: 11400000, guid: a3fd01d0ac7b7ba488eb80c606f14f57, type: 2}
   newPapersState1:
   - {fileID: 11400000, guid: ea68530bc1af2eb4a91db7c777e9267a, type: 2}
+  - {fileID: 11400000, guid: c42ab067bae371d429594e26c29ae65a, type: 2}
+  - {fileID: 11400000, guid: 17d72735f61c19a41be7f1851794524c, type: 2}
+  - {fileID: 11400000, guid: 5f97633b55d2f294d8ff00340a156ae4, type: 2}
   newPapersState2:
   - {fileID: 11400000, guid: 2accd17a7b3e29748be19b41144c2d28, type: 2}
+  - {fileID: 11400000, guid: c31b82d8f6cdcc94c9a86813ae26a313, type: 2}
+  - {fileID: 11400000, guid: e53c62872e5f01a47a6b16e7432c31a6, type: 2}
+  - {fileID: 11400000, guid: 56055d6572e7ad9488ce23673f787552, type: 2}
   newPapersState3:
   - {fileID: 11400000, guid: f64b8b740fe33034b83736d1569a3040, type: 2}
+  - {fileID: 11400000, guid: bcba75592ebd9eb47b6f3fb777214b35, type: 2}
+  - {fileID: 11400000, guid: aecaa42329f7b9e4182cbd04beb53a4c, type: 2}
 --- !u!1001 &1452303312
 PrefabInstance:
   m_ObjectHideFlags: 0

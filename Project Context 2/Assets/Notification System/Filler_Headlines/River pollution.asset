@@ -16,5 +16,5 @@ MonoBehaviour:
     in river
 
 '
-  _disableAfterTimer: 0
-  _disableTimer: 1
+  _disableAfterTimer: 1
+  _disableTimer: 10
